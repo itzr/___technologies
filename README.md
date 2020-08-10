@@ -4,13 +4,14 @@
 GraphQL API
 WASM
 
+# Machine Learning
+TensorFlow
+
 # Testing
 Jest
 
 ## Dev Ops
-Kubernetes: Deploy, scale, update & debug containerized applications
-Katacoda: Run a virtual terminal in your web browser 
-Minikube: A small-scale local deployment of Kubernetes that can run anywhere. 
+Kubernetes: Deploy, scale, update & debug containerized applications 
 
 ## No code tools
 Bubble
@@ -22,4 +23,7 @@ AirTable
 # DB
 SQl
 NoSQL
+
+# Resource
+https://www.katacoda.com/
 
