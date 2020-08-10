@@ -12,6 +12,7 @@ Jest
 
 ## Dev Ops
 Kubernetes: Deploy, scale, update & debug containerized applications 
+Docker: Compose a containerized applicaton
 
 ## No code tools
 Bubble
