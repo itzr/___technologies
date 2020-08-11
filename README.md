@@ -4,6 +4,9 @@
 GraphQL API
 WASM
 
+# Blockchain
+Interacting with Ethereum
+
 # Machine Learning
 TensorFlow
 
