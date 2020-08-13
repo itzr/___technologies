@@ -1,0 +1,2 @@
+- Alias
+- Variable Substition: https://tldp.org/LDP/abs/html/varsubn.html
