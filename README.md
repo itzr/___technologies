@@ -38,3 +38,7 @@ https://www.katacoda.com/
 
 # Bash
 Scripting
+'Starter-Scripts'
+
+# Network Science
+Network Ports
