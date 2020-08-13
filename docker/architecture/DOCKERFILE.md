@@ -191,9 +191,81 @@ Variable user can pass at build-time to builder using ' --build-arg <varname>=<v
 
 Adds to the image a trigger instruction to be executed at a later time (when the image is used as the base for another build) 
 
+Trigger executed in the context of the downstream build.
+
+Executed as if immediately after the downstream FROM instruction.
+
+Any build instruction can be registered as a trigger.
+
+##### ONBUILD: Use cases:
+1 - Application build environment
+2 - Daemon which may be customized with user-specific configuration.
+
+##### ONBUILD: Case study:
+Image = Reusable Python Application Builder
+Requires:
+- application source code in a particular directory
+- build script to be called after that.
+
+*Cannot call ADD and RUN because you do not yet have access to the application source code.
+
+Solution 1 (inefficient, error-pront) = Provide devs with a boilerplate Dockerfile to C&P into their app.
+
+Solution 2: Use ONBUILD to register advance instructions to run later, during the next build stage.
+
+##### ONBUILD: How it works
+
+1. When ONBUILD encountered. Builder adds a trigger to the image metadata of the current build (no other effect)
+2. At the end of image build. All triggers stored in image manifest,  under the key OnBuild. Inspect with 'docker inspect'
+3. Later the image can be used as a base for a new build, useing FROM.
+	- As part of processing the FROM, downstream builder looks for ONBUILD triggers. Executes them in the same order that they were registered. 
+4. Triggers are cleared from the image
+
+##### ONBUILD example:
+
+ONBUILD ADD . /app/src
+ONBUILD RUN /usr/local/bin/python-build --dir /app/src
+
 ### STOPSIGNAL
+
+'STOPSIGNAL signal'
+
+Instructs container to exit
+
 ### HEALTHCHECK
+
+The HEALTHCHECK instruction has two forms:
+
+    HEALTHCHECK [OPTIONS] CMD command (check container health by running a command inside the container)
+    HEALTHCHECK NONE (disable any healthcheck inherited from the base image)
+
+The HEALTHCHECK instruction tells Docker how to test a container to check that it is still working.
+
 ### SHELL
+
+SHELL ["executable", "parameters"]
+
+The SHELL instruction allows the default shell used for the shell form of commands to be overridden. The default shell on Linux is ["/bin/sh", "-c"], and on Windows is ["cmd", "/S", "/C"]. The SHELL instruction must be written in JSON form in a Dockerfile.
+
+Example: 
+
+```
+FROM microsoft/windowsservercore
+
+# Executed as cmd /S /C echo default
+RUN echo default
+
+# Executed as cmd /S /C powershell -command Write-Host default
+RUN powershell -command Write-Host default
+
+# Executed as powershell -command Write-Host hello
+SHELL ["powershell", "-command"]
+RUN Write-Host hello
+
+# Executed as cmd /S /C echo hello
+SHELL ["cmd", "/S", "/C"]
+RUN echo hello
+```
 
 
 ##### CMD vs. ENTRYPOINT

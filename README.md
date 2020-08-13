@@ -42,3 +42,11 @@ Scripting
 
 # Network Science
 Network Ports
+
+## Learning Opportunity Tasks
+1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
+2. See DV PR’s with API for Keyword Module (PHP / Symfony)
+3. Write an alias for the docker command to enter a container (bash)
+    -. https://askubuntu.com/questions/626458/can-i-pass-arguments-to-an-alias-command
+
+
