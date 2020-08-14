@@ -29,6 +29,12 @@ exports.getApi = (req, res) => {
 };
 
 /**
+ * GET /api/infura
+ * Infura API example.
+ */
+
+
+/**
  * GET /api/foursquare
  * Foursquare API example.
  */

@@ -3,6 +3,7 @@ FROM node:lts
 WORKDIR /usr/src/app
 
 RUN yarn global add ganache-cli
+RUN yarn global add solc
 
 COPY package.json ./
 COPY yarn.lock ./
