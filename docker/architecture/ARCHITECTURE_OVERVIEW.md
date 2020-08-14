@@ -2,8 +2,8 @@
 
 #### Basic
 
-- DockerFile
-- Docker Compose file
+- DockerFile: Define the contents and startup behavior of a single container
+- Docker Compose file: Defines a multi-container application
 
 #### Intermediate
 
