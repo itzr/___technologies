@@ -1,3 +1,5 @@
+#################### BASIC START UP #################################
+
 Build an image from a Dockerfile: `docker build [OPTIONS] PATH | URL | -`
 
 Run a command in your new container (generic): `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
@@ -14,7 +16,16 @@ Run your image as a container: `docker run --publish 8000:8080 --detach --name [
 	- Mac: On a Mac, the default location for Docker images is:  ~/Library/Containers/com.docker.docker/Data/vms/0/.
 	- (https://buildvirtual.net/where-are-docker-images-stored/)
 
-## Helpful Commands
+############### KEEP A CONTINER RUNNING ############################
+
+
+
+
+
+
+
+
+################ HELPFUL COMMANDS ####################################
 `docker images`
 `docker info`
 `docker info | grep "Docker Root Dir"`
