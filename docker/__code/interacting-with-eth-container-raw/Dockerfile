@@ -4,6 +4,7 @@ WORKDIR /usr/src/app
 
 RUN yarn global add ganache-cli
 RUN yarn global add solc
+RUN yarn global add nodemon
 
 COPY package.json ./
 COPY yarn.lock ./
@@ -13,7 +14,7 @@ RUN yarn
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "nodemon", "server.js" ]
 
 ## Experimental...
 ## ENTRYPOINT tail

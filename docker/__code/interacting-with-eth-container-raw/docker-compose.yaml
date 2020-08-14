@@ -8,4 +8,5 @@ services:
     ports:
       - "49160:8080"
         # In the example above, Docker mapped the 8080 port inside of the container to the port 49160 on your machine.
-
+    volumes:
+      - ".:/usr/src/app"

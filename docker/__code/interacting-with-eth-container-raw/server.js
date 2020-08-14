@@ -5,6 +5,7 @@
  */
 const express = require('express');
 const dotenv = require('dotenv');
+const bodyParser = require('body-parser');
 
 // Constants
 const PORT = 8080;
@@ -24,7 +25,8 @@ const apiController = require('./controllers/api');
  * Create Express server.
  */
 const app = express();
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 /**
  * Primary app routes.
  */
@@ -36,6 +38,8 @@ app.get('/', (req, res) => {
  * API examples routes.
  */
 app.get('/api/infura', apiController.getInfura);
+app.get('/api/infura/compound', apiController.getCompound)
+
 
 /**
  * Start Express server.

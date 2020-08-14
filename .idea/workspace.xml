@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/examples/server.example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/.ARCHITECTURE.md.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/COMMANDS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/SYMLINK_NOT_WHAT_I_THOUGHT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" afterDir="false" />
@@ -67,7 +66,7 @@
       <updated>1596964231884</updated>
       <workItem from="1596964234383" duration="541000" />
       <workItem from="1597394564971" duration="3855000" />
-      <workItem from="1597399430719" duration="5386000" />
+      <workItem from="1597399430719" duration="10581000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
