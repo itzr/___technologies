@@ -5,3 +5,7 @@ Representational state transfer (REST) is a software architectural style that de
 ### Transport Layer Security (TLS)
 
 Cryptographic protocols designed to provide communications security over a computer network
+
+### Bindings
+
+In programming and software design, a binding is an application programming interface that provides glue code specifically made to allow a programming language to use a foreign library or operating system service.

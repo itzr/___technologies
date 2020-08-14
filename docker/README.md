@@ -18,10 +18,21 @@ Run your image as a container: `docker run --publish 8000:8080 --detach --name [
 
 ############### KEEP A CONTINER RUNNING ############################
 
+Option 1: Run with bin/bash or bin/sh
 
+`docker run -it -d <image> /bin/bash`
 
+Option 2: Use foreground mode (-t, -i or -it), can be with detached (-d)
 
+`docker run -t -d <image>` (bash will wait in the background)
 
+* Note for /bin/sh OR is not working:
+
+ `docker run --entrypoint "/bin/sh" -it <image>`
+
+* -t: Allocate a psuedo-TTY: A passive driver for users to interact with the terminal. Handles basic line editing and session management. (http://www.linusakesson.net/programming/tty/index.php)
+* -i: Keep STDIN open even if not attached. STDIN is a 'Standard stream. These are interconnected input and output communication channels between a computer program and it's environment when it begins execution. Whena command is executed via an interative shell, the steams are typically connected to a text terminal on which the shell is running, but can be changed with redirection or a pipeline. (https://en.wikipedia.org/wiki/Standard_streams)
+* -it
 
 
 
