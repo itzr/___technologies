@@ -2,7 +2,7 @@
 
 Server with Node and Express: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 `docker build -t <your username>/node-web-app .`
-`docker run -p 49160:8080 -d <your username>/node-web-app`
+`docker-compose down && docker-compose up --build` (it method) OR `docker run -p 49160:8080 -d <your username>/node-web-app` (guide)
 `docker ps`
 `docker logs <container id>`
 `docker exec -it <container id> /bin/bash`
