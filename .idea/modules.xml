@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/_technologies.iml" filepath="$PROJECT_DIR$/.idea/_technologies.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../__authoritas/authoritas-ui-dev-build/.idea/authoritas-ui-dev-build.iml" filepath="$PROJECT_DIR$/../__authoritas/authoritas-ui-dev-build/.idea/authoritas-ui-dev-build.iml" />
     </modules>
   </component>
 </project>

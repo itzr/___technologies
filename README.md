@@ -1,47 +1,48 @@
 # Learn by doing repo
 
 ## Other
-GraphQL API
-WASM
-GIS (Geographic Information System)
+- GraphQL API
+- WASM
+- GIS (Geographic Information System)
+- GPT-3
 
 # Authentication
-OAuth2
+- OAuth2
 
 # Blockchain
-Interacting with Ethereum
+- Interacting with Ethereum
 
 # Machine Learning
-TensorFlow
+- TensorFlow
 
 # Testing
-Jest
+- Jest
 
 ## Dev Ops
-Kubernetes: Deploy, scale, update & debug containerized applications 
-Docker: Compose a containerized applicaton
-Docker-Swarm: Container orchestration & Docker's native clustering engine
+- Kubernetes: Deploy, scale, update & debug containerized applications 
+- Docker: Compose a containerized applicaton
+- Docker-Swarm: Container orchestration & Docker's native clustering engine
 
 ## No code tools
-Bubble
-Webflow
-Integromat
-Zapier
-AirTable
+- Bubble
+- Webflow
+- Integromat
+- Zapier
+- AirTable
 
 # DB
-Mongo (NoSQL)
+- Mongo (NoSQL)
 
 # DB (types)
-SQl
-NoSQL
+- SQl
+- NoSQL
 
 # Resource
-https://www.katacoda.com/
+- https://www.katacoda.com/
 
 # Bash
-Scripting
-'Starter-Scripts'
+- Scripting
+- 'Starter-Scripts'
 
 # Network Science
 Network Ports
