@@ -1,13 +1,24 @@
+/**
+ * Module dependencies.
+ */
 const axios = require('axios');
 const Web3 = require('web3');
+const fs = require('fs');
+const mongoose = require('mongoose');
+
+/**
+ * Schema dependencies.
+ */
+const Kitten = require('./../models/Kitten.js')
+
+/**
+ * Local dependencies.
+ */
 const contractConfig = require('./../config/smart-contract-config.json');
 const eventConfig = require('./../config/events-config.json');
 
-const fs = require('fs');
-
 // const walletPrivateKey = process.env.walletPrivateKey;
 const apiKey = process.env.INFURA_PROJECT_ID;
-
 const web3 = new Web3(`https://mainnet.infura.io/v3/${apiKey}`);
 
 // web3.eth.accounts.wallet.add(walletPrivateKey);
@@ -78,4 +89,31 @@ exports.getCompound = (req, res, next) => {
             next(new Error(JSON.stringify(err)))
         }
     );
+};
+
+/**
+ * GET /api/db/post/test
+ * MongoDB / Mongoose API example.
+ */
+
+exports.getDBPost = (req, res, next) => {
+    const fluffy = new Kitten({ name: 'fluffy' });
+    fluffy.speak(); // "Meow name is fluffy"
+    fluffy.save(function (err, fluffy) {
+        if (err) return next(new Error(JSON.stringify(err)));
+        fluffy.speak();
+        res.send(fluffy)
+    });
+};
+
+/**
+ * GET /api/db/get/test
+ * MongoDB / Mongoose API example.
+ */
+
+exports.getDBGet = (req, res, next) => {
+    Kitten.find({ name: /^fluff/ }, function (err, fluffy) {
+        if (err) return next(new Error(JSON.stringify(err)));
+        res.send(fluffy)
+    });
 };

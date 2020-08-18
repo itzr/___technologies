@@ -14,3 +14,7 @@ MacOS Problem:
 Cause: macOS Catalina runs in a read-only system volume, separate from other files on your Mac. 
  
 Source: https://medium.com/@bryantjiminson/fixing-data-db-not-found-error-in-macos-x-when-starting-mongodb-d7b82abb2479
+
+# Connecting to Mongo URI
+
+- Don't forget to URL Encode your password!

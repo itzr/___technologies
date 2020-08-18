@@ -38,8 +38,18 @@ known as the M0, grants users 512 MB of
 storage and is ideal for learning MongoDB, 
 prototyping, and early development.
 
+For Guide: https://docs.atlas.mongodb.com/getting-started/
+
+* It's pretty easy.
+
 ## With NodeJs
 
 Options: 
 - Mongoose (favourite)
 - Mongo 
+
+## Mongoose
+
+Ordering Schemas: https://stackoverflow.com/questions/19051041/cannot-overwrite-model-once-compiled-mongoose
+
+`module.exports = mongoose.models.Users || mongoose.model('Users', UsersSchema);`
