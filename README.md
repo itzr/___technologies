@@ -3,7 +3,10 @@
 ## Other
 GraphQL API
 WASM
+GIS (Geographic Information System)
 
+# DB
+Mongo
 
 # Authentication
 OAuth2

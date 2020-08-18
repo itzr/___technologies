@@ -1,6 +1,7 @@
 const axios = require('axios');
 const Web3 = require('web3');
-const config = require('../config.json');
+const contractConfig = require('./../config/smart-contract-config.json');
+const eventConfig = require('./../config/events-config.json');
 
 const fs = require('fs');
 
@@ -12,8 +13,8 @@ const web3 = new Web3(`https://mainnet.infura.io/v3/${apiKey}`);
 // web3.eth.accounts.wallet.add(walletPrivateKey);
 // const myWalletAddress = web3.eth.accounts.wallet[0].address;
 
-const cGovernance = config.cGovernance;
-const cGovernanceAbi = config.cGovernanceAbi;
+const cGovernance = contractConfig.cGovernance;
+const cGovernanceAbi = contractConfig.cGovernanceAbi;
 const cGovContract = new web3.eth.Contract(cGovernanceAbi, cGovernance);
 
 // console.log(JSON.stringify(cGovernanceAbi.options.jsonInterface,null, 2));
@@ -22,8 +23,8 @@ const cGovContract = new web3.eth.Contract(cGovernanceAbi, cGovernance);
 // Do this based on a timer / look for changes first..
 // fs.writeFileSync('./abi/compound-governance.json', JSON.stringify(cGovernanceAbi, null, 2))
 
-const cEthAddress = config.cEthAddress;
-const cEthAbi = config.cEthAbi;
+const cEthAddress = contractConfig.cEthAddress;
+const cEthAbi = contractConfig.cEthAbi;
 const cEthContract = new web3.eth.Contract(cEthAbi, cEthAddress);
 
 // fs.writeFileSync('./abi/compound-ethereum.json', JSON.stringify(cEthContract, null, 2))
@@ -66,14 +67,15 @@ exports.getInfura = async (req, res, next) => {
  */
 
 exports.getCompound = (req, res, next) => {
-    // cGovContract.getPastEvents('allEvents')
-    cGovContract.events.allEvents()
+    cGovContract.getPastEvents(eventConfig.compoundProposalCreated, {
+        // filter: {myIndexedParam: [20,23], myOtherIndexedParam: '0x123456789...'}, // Using an array means OR: e.g. 20 or 23
+        fromBlock: 0,
+        toBlock: 'latest'
+    })
         .then(function(events){
-            console.log(events) // same results as the optional callback above
             res.send(events)
         }).catch((err) => {
             next(new Error(JSON.stringify(err)))
         }
-
     );
 };

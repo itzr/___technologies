@@ -1,3 +1,8 @@
+# Project
+
+go to `_technologies/docker/__code/interacting-with-eth*`
+
+
 # Objective
 
 Run Docker container with Node and all the goodies necessary to query the Etherum blockchain.

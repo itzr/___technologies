@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/examples/server.example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/events-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DOCKER_SQL.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/smart-contract-config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethereum/set_up_dev_env/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/set_up_dev_env/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +41,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container/docs" />
@@ -66,7 +66,9 @@
       <updated>1596964231884</updated>
       <workItem from="1596964234383" duration="541000" />
       <workItem from="1597394564971" duration="3855000" />
-      <workItem from="1597399430719" duration="10581000" />
+      <workItem from="1597399430719" duration="10946000" />
+      <workItem from="1597724909808" duration="4000" />
+      <workItem from="1597724916467" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -113,13 +115,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597399431250" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597734559317">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597734559317" />
     <state x="371" y="218" width="698" height="486" key="find.popup" timestamp="1597397910154">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="698" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597397910154" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597405229027">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597734368219">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597405229027" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597734368219" />
   </component>
 </project>

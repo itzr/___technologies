@@ -23,4 +23,4 @@ volumes:
 2. dockerfile
 
 RUN npm install -g nodemon
-RUN npm installENTRYPOINT ["nodemon", "/usr/src/app/server.js"]
+ENTRYPOINT ["nodemon", "/usr/src/app/server.js"]
