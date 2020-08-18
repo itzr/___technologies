@@ -5,9 +5,6 @@ GraphQL API
 WASM
 GIS (Geographic Information System)
 
-# DB
-Mongo
-
 # Authentication
 OAuth2
 
@@ -33,6 +30,9 @@ Zapier
 AirTable
 
 # DB
+Mongo (NoSQL)
+
+# DB (types)
 SQl
 NoSQL
 

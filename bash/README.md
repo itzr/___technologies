@@ -2,10 +2,12 @@
 
 - alias
 - chown
+- grep (used to search text)
 - Variable Substition: https://tldp.org/LDP/abs/html/varsubn.html
 - Filepath / echo https://golang.org/pkg/path/filepath/#Match
 - symlink: 'ln -s source_file symbolic_link'
 - service OR 'brew services' (if Homebrew)
+- ls -l (explained)
 
 ## GENERAL DEBUGGING
 

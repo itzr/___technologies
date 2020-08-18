@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/events-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DOCKER_SQL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/ISSUES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/smart-contract-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ethereum/set_up_dev_env/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ethereum/set_up_dev_env/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,18 @@
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container/docs" />
     </key>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,7 +79,7 @@
       <workItem from="1597394564971" duration="3855000" />
       <workItem from="1597399430719" duration="10946000" />
       <workItem from="1597724909808" duration="4000" />
-      <workItem from="1597724916467" duration="5224000" />
+      <workItem from="1597724916467" duration="8870000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -123,9 +134,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="698" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597397910154" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597734368219">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597737443572">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597734368219" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597737443572" />
   </component>
 </project>
