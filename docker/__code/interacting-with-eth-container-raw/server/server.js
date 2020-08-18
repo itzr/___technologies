@@ -60,7 +60,6 @@ app.get('/api/infura/compound', apiController.getCompound)
 app.get('/api/db/post/test', apiController.getDBPost)
 app.get('/api/db/get/test', apiController.getDBGet)
 
-
 /**
  * Start Express server.
  */

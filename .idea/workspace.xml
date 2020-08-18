@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/models/Kitten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/NODE_AND_REACT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__authoritas/authoritas-ui-dev-build/getstartederrors-readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../__authoritas/authoritas-ui-dev-build/getstartederrors-readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/_technologies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/_technologies.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/ISSUES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/abi/compound-ethereum.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/abi/compound-ethereum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/abi/compound-governance.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/abi/compound-governance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/events-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/config/events-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config/smart-contract-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/config/smart-contract-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/controllers/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/examples/server.example.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/examples/server.example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/models/Kitten.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/models/Kitten.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +60,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container/docs" />
     </key>
@@ -85,7 +102,8 @@
       <workItem from="1597394564971" duration="3855000" />
       <workItem from="1597399430719" duration="10946000" />
       <workItem from="1597724909808" duration="4000" />
-      <workItem from="1597724916467" duration="12235000" />
+      <workItem from="1597724916467" duration="15229000" />
+      <workItem from="1597764080610" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -136,10 +154,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597758179983" />
-    <state x="371" y="218" width="698" height="486" key="find.popup" timestamp="1597397910154">
+    <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597761521893">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="371" y="218" width="698" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597397910154" />
+    <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597761521893" />
     <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597757787900">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -150,50 +168,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>12</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>15</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>17</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>67</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
-          <line>76</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
           <line>88</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
