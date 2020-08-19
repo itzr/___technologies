@@ -6,6 +6,9 @@
 - GIS (Geographic Information System)
 - GPT-3
 
+# Message Brokers
+- RabbitMQ
+
 # Authentication
 - OAuth2
 

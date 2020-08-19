@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/bb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/COMMANDS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/ISSUES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CRONJOBS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/DEPLOYING_WITH_DOCKER_DESKTOP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/pod.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/COMMANDS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/DEVELOP_NODE_DOCKER_FASTER.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DOCKER_SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/DOCKER_SQL.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/NODE_AND_REACT.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/NODE_AND_REACT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/ARCHITECTURE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/ARCHITECTURE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/CONTINUE_FROM_HERE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CONTINUE_FROM_HERE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/CREATE_A_SERVICE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CREATE_A_SERVICE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/VIEW_AN_APP_BASIC.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/VIEW_AN_APP_BASIC.md" afterDir="false" />
-    </list>
+    <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +83,7 @@
       <workItem from="1597724916467" duration="15229000" />
       <workItem from="1597764080610" duration="3760000" />
       <workItem from="1597768072443" duration="1066000" />
-      <workItem from="1597800415854" duration="5966000" />
+      <workItem from="1597800415854" duration="6231000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
