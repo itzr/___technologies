@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change beforePath="$PROJECT_DIR$/.idea/_technologies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/_technologies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/bb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/ISSUES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CRONJOBS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/DEPLOYING_WITH_DOCKER_DESKTOP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/pod.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DEVELOP_NODE_DOCKER_FASTER.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/DEVELOP_NODE_DOCKER_FASTER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/DOCKER_SQL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/DOCKER_SQL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/NODE_AND_REACT.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/NODE_AND_REACT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/ARCHITECTURE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/ARCHITECTURE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/CONTINUE_FROM_HERE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CONTINUE_FROM_HERE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/CREATE_A_SERVICE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CREATE_A_SERVICE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/VIEW_AN_APP_BASIC.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/VIEW_AN_APP_BASIC.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +56,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container/docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kubernetes/docs/granular" />
+      <recent name="$PROJECT_DIR$/kubernetes" />
+      <recent name="$PROJECT_DIR$/kubernetes/docs" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -86,6 +102,8 @@
       <workItem from="1597724909808" duration="4000" />
       <workItem from="1597724916467" duration="15229000" />
       <workItem from="1597764080610" duration="3760000" />
+      <workItem from="1597768072443" duration="1066000" />
+      <workItem from="1597800415854" duration="5966000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -116,10 +134,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597396638671">
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597802081806">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1597396638671" />
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1597802081806" />
     <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -128,22 +146,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1597396522110" />
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1597399431250">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1597800482581">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597399431250" />
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597800482581" />
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597767707383">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597767707383" />
-    <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597761521893">
+    <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597803314281">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597761521893" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597757787900">
+    <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597803314281" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597807173046">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597757787900" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597807173046" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

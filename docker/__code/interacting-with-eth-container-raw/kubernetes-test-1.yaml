@@ -1,0 +1,10 @@
+# NOT WORKING
+apiVersion: v1
+kind: Pod
+metadata:
+  name: eth-container-demo
+spec:
+  containers:
+    - name: eth-container-demo
+      image: interacting-with-eth-container-raw_server:latest
+      command: ["ping", "8.8.8.8"]

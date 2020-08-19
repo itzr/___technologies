@@ -10,6 +10,19 @@ Server with Node and Express: https://nodejs.org/en/docs/guides/nodejs-docker-we
 
 * Only different is that I used docker-compose and do the port forwarding there.
 
+### Check Logs
+
+Option 1
+
+`pred='process matches ".*(ocker|vpnkit).*"
+   || (process in {"taskgated-helper", "launchservicesd", "kernel"} && eventMessage contains[c] "docker")'
+ /usr/bin/log stream --style syslog --level=debug --color=always --predicate "$pred"`
+
+Option 2
+
+`$ pred='process matches ".*(ocker|vpnkit).*" || (process in {"taskgated-helper", "launchservicesd", "kernel"} && eventMessage contains[c] "docker")'`
+`$ /usr/bin/log stream --style syslog --level=debug --color=always --predicate "$pred"`
+
 ------------------------
 
 ## BOILERPLATE EXAMPLE
