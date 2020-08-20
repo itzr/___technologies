@@ -1,10 +1,15 @@
-# NOT WORKING
 apiVersion: v1
+# kind: Pod |
 kind: Pod
 metadata:
-  name: eth-container-demo
+  name: node_server
+# spec describes the current state
 spec:
   containers:
-    - name: eth-container-demo
-      image: interacting-with-eth-container-raw_server:latest
+    - name: node_server
+      image: server_node:latest
+      imagePullPolicy: IfNotPresent
       command: ["ping", "8.8.8.8"]
+# status describes the desired state
+# characteristics you want the resource to have
+# status
