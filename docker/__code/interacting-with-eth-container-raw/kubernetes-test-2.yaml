@@ -59,3 +59,9 @@ spec:
       # volumes specified here
       # subdomain specified here
   # no need for links because: all containers in the same pod are accessible in Kubernetes
+# --- separator (3 x -)
+---
+apiVersion: v1 # for versions before 1.9.0 use apps/v1beta2
+# An abstract way to expose an application running on a set of Pods as a network service.
+# Overview: https://kubernetes.io/docs/concepts/services-networking/service/
+kind: Service

@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-3-kompose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-1.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes/docs/ARCHITECTURE.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/ARCHITECTURE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +107,7 @@
       <workItem from="1597829526325" duration="617000" />
       <workItem from="1597838715250" duration="8458000" />
       <workItem from="1597889729750" duration="13793000" />
-      <workItem from="1597920552559" duration="3606000" />
+      <workItem from="1597920552559" duration="4116000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>

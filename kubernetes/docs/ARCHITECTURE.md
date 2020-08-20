@@ -20,7 +20,6 @@
 ### Discovery and Load Balancing
 - Ingresses
 - Services: An abstract way to explore an application running on a set of Pods as a network service. It defines a logical set of Pods and policy by which to access them (microservice pattern). (service example: stateless image-processing backend). It is a REST object. Services enable a loose coupling between dependent Pods. A Service is defined using YAML (preferred) or JSON, like all Kubernetes objects. A service comes in 1 of 4 types:
-
     - ClusterIP (default) - Exposes the Service on an internal IP in the cluster. This type makes the Service only reachable from within the cluster.
     - NodePort - Exposes the Service on the same port of each selected Node in the cluster using NAT. Makes a Service accessible from outside the cluster using <NodeIP>:<NodePort>. Superset of ClusterIP.
     - LoadBalancer - Creates an external load balancer in the current cloud (if supported) and assigns a fixed, external IP to the Service. Superset of NodePort.
