@@ -1,5 +1,8 @@
 # GENERAL
 
+- checking logs
+    - docker containers (php / node / etc)
+    - other
 - alias
 - chown
 - grep (used to search text)
@@ -8,6 +11,7 @@
 - symlink: 'ln -s source_file symbolic_link'
 - service OR 'brew services' (if Homebrew)
 - ls -l (explained)
+- syslog:  unix tool, which routes logs based on both severity (info/warn/crit...) and facility (auth/cron/kern...).
 
 ## GENERAL DEBUGGING
 
