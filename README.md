@@ -5,6 +5,7 @@
 - WASM
 - GIS (Geographic Information System)
 - GPT-3
+- ElasticSearch
 
 # Message Brokers
 - RabbitMQ
