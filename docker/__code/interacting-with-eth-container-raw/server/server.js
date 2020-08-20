@@ -7,8 +7,15 @@ const express = require('express');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-
-// Constants
+/**
+ * Local dependencies.
+ */
+const rabbitMQ = require('./message/rabbitMQ.js')
+const rabbitMQResults = require('./message/message-results/rabbitMQ-results.js')
+const rabbitMQRequests = require('./message/message-requests/rabbitMQ-requests.js')
+/**
+ * Define Constants
+ */
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
@@ -43,8 +50,12 @@ const apiController = require('./controllers/api');
  * Create Express server.
  */
 const app = express();
+/**
+ * Apply Middleware
+ */
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
 /**
  * Primary app routes.
  */
@@ -59,9 +70,17 @@ app.get('/api/infura', apiController.getInfura);
 app.get('/api/infura/compound', apiController.getCompound)
 app.get('/api/db/post/test', apiController.getDBPost)
 app.get('/api/db/get/test', apiController.getDBGet)
+app.post('/api/v1/get-proposals', apiController.getRabbitTest),
 
 /**
  * Start Express server.
  */
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
+
+/**
+ * Listen for results on RabbitMQ
+ */
+rabbitMQ.setup();
+rabbitMQRequests.listenForMessages();
+rabbitMQResults.listenForResults();

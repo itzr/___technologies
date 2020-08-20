@@ -3,8 +3,9 @@
  */
 const axios = require('axios');
 const Web3 = require('web3');
-const fs = require('fs');
-const mongoose = require('mongoose');
+// const fs = require('fs');
+// const mongoose = require('mongoose');
+const amqp = require('amqplib');
 
 /**
  * Schema dependencies.
@@ -14,8 +15,10 @@ const Kitten = require('./../models/Kitten.js')
 /**
  * Local dependencies.
  */
+const rabbitMQ = require('./../message/rabbitMQ.js')
 const contractConfig = require('./../config/smart-contract-config.json');
 const eventConfig = require('./../config/events-config.json');
+const { serverURL } = require('./../config/rabbitMQ-config.json');
 
 // const walletPrivateKey = process.env.walletPrivateKey;
 const apiKey = process.env.INFURA_PROJECT_ID;
@@ -117,3 +120,30 @@ exports.getDBGet = (req, res, next) => {
         res.send(fluffy)
     });
 };
+
+/**
+ * POST /api/v1/get-proposals
+ * Rabbit API example.
+ */
+
+// simulate request ids
+let lastRequestId = 1;
+
+exports.getRabbitTest = async (req, res) => {
+    // save request id and increment
+    let requestId = lastRequestId;
+    lastRequestId++;
+
+    // connect to Rabbit MQ and create a channel
+    let connection = await amqp.connect(serverURL);
+    let channel = await connection.createConfirmChannel();
+
+    // publish the data to Rabbit MQ
+    let requestData = req.body.data;
+    console.log("Published a request message, requestId:", requestId);
+    await rabbitMQ.publishToChannel(channel, { routingKey: "request", exchangeName: "processing", data: { requestId, requestData } });
+
+    // send the request id in the response
+    res.send({ requestId })
+};
+

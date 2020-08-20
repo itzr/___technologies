@@ -1,6 +1,6 @@
 var amqp = require('amqplib/callback_api');
 
-const { serverURL } = require('./rabbitMQ-config.json');
+const { serverURL } = require('docker/__code/interacting-with-eth-container-raw/server/config/rabbitMQ-config.json');
 
 amqp.connect(serverURL, function(error0, connection) {
     if (error0) {
