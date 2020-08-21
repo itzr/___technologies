@@ -27,6 +27,12 @@
 - Docker: Compose a containerized applicaton
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 
+## Package Managers / Image Hub
+- NPM (js)
+- PIP (python)
+- Helm (kubernetes)
+- Docker Hub (docker)
+
 ## No code tools
 - Bubble
 - Webflow
@@ -50,6 +56,9 @@
 
 # Network Science
 Network Ports
+
+# Monitoring Systems
+Prometheus
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain

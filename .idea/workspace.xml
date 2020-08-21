@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/kubernetes/helm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes/helm/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/helm/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/prometheus/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/prometheus/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/.helmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/Chart.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/OWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/ci/prometheus-exporter-values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/ci/prometheus-plugin-values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/_helpers.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/alerts.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/configmap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/ingress.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/pdb.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/role.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/rolebinding.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/secret.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/service-discovery.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/serviceaccount.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/servicemonitor.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/templates/statefulset.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/rabbitmq-helm/rabbitmq-ha/values.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +137,7 @@
       <workItem from="1597967348498" duration="3141000" />
       <workItem from="1597971954004" duration="7000" />
       <workItem from="1597971980625" duration="176000" />
-      <workItem from="1597972174627" duration="1563000" />
+      <workItem from="1597972174627" duration="2907000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
