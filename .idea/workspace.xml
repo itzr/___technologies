@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/kubernetes/helm/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/helm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/kubernetes-test-2.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/helm/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/helm/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,11 @@
       <workItem from="1597829526325" duration="617000" />
       <workItem from="1597838715250" duration="8458000" />
       <workItem from="1597889729750" duration="13793000" />
-      <workItem from="1597920552559" duration="9054000" />
+      <workItem from="1597920552559" duration="9816000" />
+      <workItem from="1597967348498" duration="3141000" />
+      <workItem from="1597971954004" duration="7000" />
+      <workItem from="1597971980625" duration="176000" />
+      <workItem from="1597972174627" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -152,22 +155,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1597920172558">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1597972153977">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597920172558" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597972153977" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1597396522110">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1597396522110" />
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1597920553174">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1597972174748">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597920553174" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597921935548">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597972174748" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597969916928">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597921935548" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597969916928" />
     <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597920086327">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
