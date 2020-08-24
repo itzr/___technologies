@@ -2,5 +2,8 @@ dependencies:
 - name: rabbitmq-ha
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 1.44.1
-digest: sha256:1bebc216cbde66c819663b566df85b18b370172b4f8a12b87d97e702ff361909
-generated: "2020-08-21T09:52:20.033802+07:00"
+- name: helm-node
+  repository: https://helm-charts-itzr.storage.googleapis.com/
+  version: 0.1.0
+digest: sha256:6949f4c5f717025c3b4372defe40f9ac6c589e46c00db88c78980d2ea41cc73e
+generated: "2020-08-24T12:02:38.454352+07:00"

@@ -27,6 +27,7 @@ dependencies:
     version: 1.44.1
     repository: https://kubernetes-charts.storage.googleapis.com
   - name: helm-node
-    version: latest
+    version: 0.1.0
     # try to create a chart repository
-    repository: https://storage.googleapis.com/helm-charts-itzr/helm-node-0.1.0.tgz
+    repository: https://helm-charts-itzr.storage.googleapis.com/
+

@@ -7,6 +7,10 @@
 - GPT-3
 - ElasticSearch
 
+# Cloud Tools
+gcloud
+gsutil
+
 # Message Brokers
 - RabbitMQ
 

@@ -1,3 +1,10 @@
+# NOTE
+
+DEPRECATED AND NO LONGER MAINTAINED
+
+PLEASE GO TO /cloud
+
+
 # Kubernetes cluster has two types of resources:
 - Master: coordinates all activites (scheduling, maintaining state, scaling, updating) 
 - Nodes: Each node is VM. Each node has a 'Kubelet', an agent for managing the node, contains relevent tools e.g Docker or rkt
