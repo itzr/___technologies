@@ -60,6 +60,9 @@ Network Ports
 # Monitoring Systems
 Prometheus
 
+# Cloud Storage
+Google Cloud Storage
+
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
 2. See DV PR’s with API for Keyword Module (PHP / Symfony)

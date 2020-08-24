@@ -16,7 +16,8 @@ const rabbitMQRequests = require('./message/message-requests/rabbitMQ-requests.j
 /**
  * Define Constants
  */
-const PORT = 8080;
+// from 8080
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 /**

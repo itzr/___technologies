@@ -14,6 +14,7 @@ RUN yarn
 COPY . .
 
 EXPOSE 8080
+EXPOSE 80
 CMD [ "nodemon", "server.js" ]
 
 ## Experimental...

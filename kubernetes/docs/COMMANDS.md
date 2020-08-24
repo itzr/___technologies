@@ -10,3 +10,5 @@
 `kubectl delete -f <file.yaml>`
 # Debugging
 `kubectl describe pod <pod-id>  `
+# Delete all pods
+`kubectl delete pods --all`

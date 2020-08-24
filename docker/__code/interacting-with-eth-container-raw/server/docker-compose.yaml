@@ -6,14 +6,21 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "49160:8080"
+      - "8080:8080"
       - "3001:3001"
-        # In the example above, Docker mapped the 8080 port inside of the container to the port 49160 on your machine.
+      - "80:80"
+    expose:
+      - "3000"
+      - "8000"
+      - "80"
+      # "HOST:CONTAINER"
+      # "LOCAL:CONTAINER" acronym LOCO.
+      # In the example above, Docker mapped the 8080 port inside of the container to the port 49160 on your machine.
     volumes:
       - ".:/usr/src/app"
-    # What is links?
-    links:
-      - rabbitmq
+    # What is links? (deleted for helm)
+#    links:
+#      - rabbitmq
   rabbitmq:
     image: "rabbitmq:3-management"
     ports:
