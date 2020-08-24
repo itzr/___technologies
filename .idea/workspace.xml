@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/cloud/COMMANDS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/docs/VERSIONING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/helm/degov-chart/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/helm/degov-chart/Chart.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/helm/degov-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/helm/degov-chart/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts/helm-node-0.1.0.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/helm/helm-node-0.1.0.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/helm/helm-node/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/helm/helm-node/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +115,8 @@
       <workItem from="1597971980625" duration="176000" />
       <workItem from="1597972174627" duration="14118000" />
       <workItem from="1598241128692" duration="4384000" />
-      <workItem from="1598248230925" duration="578000" />
+      <workItem from="1598248230925" duration="1124000" />
+      <workItem from="1598252116512" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -175,10 +167,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="98" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1597998881567" />
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598248229847">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598252131756">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598248229847" />
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598252131756" />
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597969916928">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

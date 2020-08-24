@@ -11,6 +11,7 @@
 - Kubernetes
 - Helm
 - Google Cloud Platform
+- SupervisorD
 
 ### Binaries
 
@@ -20,3 +21,4 @@
 - helm
 - gcloud 
 - gsutil
+- supervisor
