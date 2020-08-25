@@ -1,0 +1,3 @@
+- used docker
+- used authXX clusters
+- get cheatsheets
