@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/cloud/LEARNING-PHASE-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/docs/versioning/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/docs/versioning/VERSIONING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/config/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/config/rabbitMQ-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/kubernetes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/rabbitmq/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/hello-world/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/phoenixnap-tutorial/LOGS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/phoenixnap-tutorial/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/NAMESPACES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/CLUSTER.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/COMMANDS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/LEARNING-PHASE-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-phase-1/LEARNING-PHASE-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +122,7 @@
       <workItem from="1598252116512" duration="2371000" />
       <workItem from="1598254853670" duration="335000" />
       <workItem from="1598255204880" duration="174000" />
-      <workItem from="1598255489562" duration="18761000" />
+      <workItem from="1598255489562" duration="20817000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -228,11 +210,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597998115566" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598327049774">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598331073819">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598327049774" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598331073819" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
