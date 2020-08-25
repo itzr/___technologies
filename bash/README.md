@@ -13,6 +13,8 @@
 - ls -l (explained)
 - syslog:  unix tool, which routes logs based on both severity (info/warn/crit...) and facility (auth/cron/kern...).
 - eval: see below
+- make & makefiles: https://www.gnu.org/software/make/manual/html_node/Introduction.html
+
 
 ## GENERAL DEBUGGING
 

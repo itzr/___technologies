@@ -1,0 +1,78 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: hello-world-deployment
+  namespace: itzr-rabbit
+spec:
+  selector:
+    matchLabels:
+      app: hello-world
+  replicas: 1
+  template:
+    metadata:
+      name: hello-world
+      labels:
+        app: hello-world
+    spec:
+      containers:
+        - name: node-server
+          image: itzr/hello-world:1.1.7
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+            - containerPort: 3001
+#        - name: rabbitmq
+#          image: "rabbitmq:3-management"
+#          imagePullPolicy: IfNotPresent
+#          ports:
+#            - containerPort: 5672
+#            - containerPort: 15672
+#            - containerPort: 25672
+---
+apiVersion: v1 # for versions before 1.9.0 use apps/v1beta2
+# An abstract way to expose an application running on a set of Pods as a network service.
+# Overview: https://kubernetes.io/docs/concepts/services-networking/service/
+# Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods
+# defines
+# a) a logical set of Pods
+# b) a policy by which to access them
+# The set of Pods targeted by a Service is usually determined by a selector  (however this may not be desirable)
+kind: Service
+metadata:
+  name: hello-world-service
+spec:
+  selector:
+    app: hello-world
+  # type: determines how the Service is exposed.
+  # type options: ExternalName, ClusterIP, NodePort, LoadBalancer
+  # ExternalName: Maps to a specified externalName
+  # ClusterIP (default): allocates a cluster-internal IP for load-balancing endpoints. Endpoints are determined by the selector (or manual construction of an Endpoints object).
+  # NodePort: allocates a port on every node which routes to the clusterIP (builds on ClusterIP)
+  # LoadBalancer: creates an external load-balancer which routes to the clusterIP (builds on NodePort)
+  type: NodePort
+  ports:
+    # on Service ports: https://stackoverflow.com/questions/49981601/difference-between-targetport-and-port-in-kubernetes-service-definition
+    # name: //
+    # protocol: //
+    # nodePort: port exposed on the host machine
+    # targetPort: port exposed on the container (defined above)
+    # port: port internal to kubernetes cluster. e.g. degov-service:<port> will route to given <targetPort>. To expose on host, use <nodePort>
+    - name: node-server-port
+      protocol: TCP
+      # within cluster: node-server-port:1111
+      port: 1111
+      # on container: 8080 should be exposed
+      targetPort: 8080
+      # on local: 0.0.0.0:30000
+      nodePort: 30000
+#    - name: rabbit-mq-admin-port
+#      protocol: TCP
+#      port: 3333
+#      targetPort: 15672
+#      nodePort: 30001
+#    - name: rabbitmq
+#      protocol: TCP
+#      port: 5672
+#      targetPort: 5672
+#      nodePort: 30002
+

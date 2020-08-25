@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/cloud/LEARNING-PHASE-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/docs/versioning/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/docs/versioning/VERSIONING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/config/rabbitMQ-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/kubernetes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/rabbitmq/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/hello-world/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/phoenixnap-tutorial/LOGS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/phoenixnap-tutorial/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/NAMESPACES.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/COMMANDS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="_technologies" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud/hello-world" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -60,18 +81,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud/hello-world" />
       <recent name="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/results" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container/docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/demo" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/config" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message" />
       <recent name="$PROJECT_DIR$/kubernetes/docs/granular" />
-      <recent name="$PROJECT_DIR$/kubernetes" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -116,7 +137,10 @@
       <workItem from="1597972174627" duration="14118000" />
       <workItem from="1598241128692" duration="4384000" />
       <workItem from="1598248230925" duration="1124000" />
-      <workItem from="1598252116512" duration="1627000" />
+      <workItem from="1598252116512" duration="2371000" />
+      <workItem from="1598254853670" duration="335000" />
+      <workItem from="1598255204880" duration="174000" />
+      <workItem from="1598255489562" duration="18761000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -138,27 +162,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env ignore" />
     <option name="LAST_COMMIT_MESSAGE" value="env ignore" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="319" y="127" key="#Notifications" timestamp="1598260888598">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="127" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1598260888598" />
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597406044425">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598247479093">
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598326407847">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1598247479093" />
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1598326407847" />
     <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1597972153977">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1598254899695">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597972153977" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598254899695" />
+    <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="602" height="445" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1598260639230" />
+    <state x="99" y="123" width="1240" height="677" key="VCS.FileHistoryDialog" timestamp="1598261343001">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="99" y="123" width="1240" height="677" key="VCS.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1598261343001" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1597396522110">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -167,23 +216,23 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="98" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1597998881567" />
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598252131756">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598255489481">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598252131756" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597969916928">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598255489481" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598263478547">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1597969916928" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598263478547" />
     <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597998115566">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597998115566" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598248751391">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598327049774">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598248751391" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598327049774" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,3 +7,7 @@
 - https://hub.helm.sh/ : Discover & launch great Kubernetes-ready apps
 
 - Prometheus: https://prometheus.io
+
+- https://bitnami.com/ : Catalog of open source containers
+
+- kubens & kubectx: switch namespace and context with ease.
