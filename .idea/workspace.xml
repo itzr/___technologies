@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/docker/docs/SECRETS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/SECRETS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vault/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-phase-1/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1598255204880" duration="174000" />
       <workItem from="1598255489562" duration="21081000" />
       <workItem from="1598349486150" duration="1084000" />
-      <workItem from="1598399974133" duration="3156000" />
+      <workItem from="1598399974133" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -205,10 +204,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598399976786" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598263478547">
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598405047156">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598263478547" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598405047156" />
     <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597998115566">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
