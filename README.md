@@ -7,10 +7,6 @@
 - GPT-3
 - ElasticSearch
 
-# Cloud Tools
-gcloud
-gsutil
-
 # Message Brokers
 - RabbitMQ
 
@@ -37,8 +33,19 @@ gsutil
 - Helm (kubernetes)
 - Docker Hub (docker)
 
-## No code tools
-- Bubble
+## Tools
+##### Secret (tools)
+- vault https://www.vaultproject.io
+
+##### API (tools)
+- Postman
+
+##### Cloud (tools)
+gcloud
+gsutil
+
+## No code software
+- Bubble.io
 - Webflow
 - Integromat
 - Zapier

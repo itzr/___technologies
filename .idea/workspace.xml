@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/docker/docs/SECRETS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-phase-1/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +125,7 @@
       <workItem from="1598255204880" duration="174000" />
       <workItem from="1598255489562" duration="21081000" />
       <workItem from="1598349486150" duration="1084000" />
+      <workItem from="1598399974133" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -197,10 +201,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="98" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1597998881567" />
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598255489481">
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1598399976786">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598255489481" />
+    <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598399976786" />
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598263478547">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -209,11 +213,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597998115566" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598331073819">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598400075674">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598331073819" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598400075674" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

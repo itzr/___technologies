@@ -6,6 +6,8 @@ run (detached & publish ports): `docker run -p <localPort:containerPort> -d <nam
 see active: `docker ps`
 check logs: `docker logs <container id>`
 enter container: `docker exec -it <container id> /bin/bash`
+networking: `docker network --help`
+secrets: `docker secret --help`
 **docker-compose**
 
 rebuild: `docker-compose down && docker-compose up --build` 
