@@ -2,9 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/SECRETS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vault/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bash/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/1_encode_your_secret.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/2.1_create_a_secret.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/2.2_create_a_secret.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/2.shortcut.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/3.1_create_a_pod_with_access_to_the_secret.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/3.2_create-and-verify.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/4.1_define_env_var_as_kv_pair.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/4.2_use_secret_env_in_pod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/4.3_validate.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/5.1_define_multiple_secret_sources.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/5.2_use_multiple_secrets.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kubernetes/handling-secrets/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/LEARNING-PHASE-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/LEARNING-PHASE-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/docs/versioning/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/docs/versioning/VERSIONING.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/VERSIONING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/tests/test-connection.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world-chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/config/rabbitMQ-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/message/message-requests/rabbitMQ-requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-requests/rabbitMQ-requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/message/message-results/rabbitMQ-results.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-results/rabbitMQ-results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/message/rabbitMQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/rabbitMQ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/rabbitmq/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/rabbitmq/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/hello-world/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/phoenixnap-tutorial/LOGS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/LOGS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-phase-1/phoenixnap-tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vault/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/vault/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +61,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -30,9 +77,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="_technologies" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -44,12 +88,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="ProjectId" id="1fr7CdniQk68N3OMEV8Wvxhxok0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -60,8 +107,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/container-orchestration/phase 1" />
+      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.2" />
+      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.1" />
+      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cloud/hello-world" />
       <recent name="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
@@ -69,26 +124,8 @@
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/results" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/demo" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/config" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message" />
-      <recent name="$PROJECT_DIR$/kubernetes/docs/granular" />
-    </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,6 +162,8 @@
       <workItem from="1598255489562" duration="21081000" />
       <workItem from="1598349486150" duration="1084000" />
       <workItem from="1598399974133" duration="5987000" />
+      <workItem from="1598595136008" duration="3237000" />
+      <workItem from="1598602143995" duration="2932000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -144,7 +183,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
@@ -212,11 +251,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597998115566" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598400075674">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598604821185">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598400075674" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598604821185" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

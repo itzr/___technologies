@@ -5,6 +5,7 @@
 - Helm
 - Google Cloud Platform
 - SupervisorD
+- Vault
 
 ### Binaries
 
@@ -15,3 +16,4 @@
 - gcloud 
 - gsutil
 - supervisor
+- vault
