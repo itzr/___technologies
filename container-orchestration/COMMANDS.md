@@ -34,7 +34,7 @@ chart:
     *tip* to get the name: `helm ls`
     install:
         - `helm install <repo/name> --generate-name`
-        - `helm install <name> <stable/mysql?`
+        - `helm install <name> <stable/mysql>`
         - `helm install <name> <path/to/foo>`
         - `helm install <name> <bar-1.2.3.tgz>`
         - `helm install <name> <https://example.com/charts/bar-1.2.3.tgz>`

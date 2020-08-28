@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-server
-          image: itzr/hello-world:1.1.7
+          image: itzr/hello-world:1.1.8
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080

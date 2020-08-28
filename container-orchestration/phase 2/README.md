@@ -1,12 +1,14 @@
 ### Objectives
 
-- Injecting sensitive variables into clusters
+- Injecting sensitive variables into clusters (done)
 
-- Speedyier development process
-- use Prometheus
-- use Grafana
-- use Tekton
-- use Cri-o
+- Speedy development process
+
+- Explore:
+    - Prometheus (scrapes ports for analytics; monitoring system)
+    - Grafana (query, visualize and alert on metrics & logs)
+    - Tekton (framework to create cloud-native CI/CD pipelines quickly.)
+    - Cri-o (lightweight alternative to docker)
 - Access the Kubernetes dashboard: 
     - (dashboard): 
         - run `k-gui` alias for `kubectl proxy`
@@ -22,3 +24,16 @@
     - vault by hashicorp
     - AWS secrets manager
 
+### Speedier dev
+
+Issue:
+Don't want to build and push a container everytime to use in kubernetes
+
+### Prometheus
+
+You can monitor on the local by:
+- starting with brew services
+- checking the port (use alias: `port-scan`)
+- configure in /usr/local/etc/prometheus.yml
+    - decide what ports to scrape from:
+        (https://prometheus.io/docs/prometheus/latest/getting_started/)

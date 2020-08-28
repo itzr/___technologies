@@ -6,6 +6,7 @@
 - GIS (Geographic Information System)
 - GPT-3
 - ElasticSearch
+- Managing Logs
 
 # Message Brokers
 - RabbitMQ
