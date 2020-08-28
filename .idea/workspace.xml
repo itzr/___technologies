@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/GET_STARTED.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/prometheus/prometheus-2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration/phase 2/SPEEDIER_DEVELOPMENT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <workItem from="1598349486150" duration="1084000" />
       <workItem from="1598399974133" duration="5987000" />
       <workItem from="1598595136008" duration="3237000" />
-      <workItem from="1598602143995" duration="5153000" />
+      <workItem from="1598602143995" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>

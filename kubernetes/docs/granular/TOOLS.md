@@ -1,5 +1,7 @@
 ### Tools
 
+- loads here: https://kubernetes.io/blog/2018/05/01/developing-on-kubernetes/
+
 - http://kompose.io. : a conversion tool to translate a Docker Compose File to Kubernetes Resources 
 
 - Differences between docker & kubernetes: https://github.com/kubernetes/kompose/blob/master/docs/conversion.md

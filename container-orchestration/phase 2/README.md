@@ -24,10 +24,15 @@
     - vault by hashicorp
     - AWS secrets manager
 
-### Speedier dev
+### Speedier Development
 
 Issue:
 Don't want to build and push a container everytime to use in kubernetes
+
+Goal: 
+Develop faster with Docker, Kubernetes (Helm)
+
+see /SPEEDIER_DEVELOPMENT.md
 
 ### Prometheus
 
