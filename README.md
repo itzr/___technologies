@@ -32,6 +32,7 @@
 - PIP (python)
 - Helm (kubernetes)
 - Docker Hub (docker)
+- pecl (php)
 
 ## Tools
 ##### Secret (tools)
@@ -76,6 +77,9 @@ Google Cloud Storage
 
 # Legacy
 Symfony Flex
+
+# Debuggers
+XDebug (php)
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
