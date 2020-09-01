@@ -1,2 +1,2 @@
 #production
-"serverURL": "amqp://rabbitmq:5672"
+"RABBIT_MQ_CLUSTER_IP": "amqp://rabbitmq:5672"
