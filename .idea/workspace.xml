@@ -2,10 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/container-orchestration/phase 2/SPEEDIER_DEVELOPMENT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/ISSUES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/DraftDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/controller/RoukouController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/model/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/test/java/org/roukou/draft/DraftDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/LEARNING-PHASE-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/LEARNING-PHASE-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/docs/versioning/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/VERSIONING.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/docs/versioning/VERSIONING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/Chart.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/tests/test-connection.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/kubernetes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-requests/rabbitMQ-requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/message-requests/rabbitMQ-requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-results/rabbitMQ-results.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/message-results/rabbitMQ-results.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/rabbitMQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/rabbitMQ.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/rabbitmq/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/rabbitmq/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/GET_STARTED.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/GET_STARTED.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/LOGS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/phoenixnap-tutorial/LOGS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/phoenixnap-tutorial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/SPEEDIER_DEVELOPMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/SPEEDIER_DEVELOPMENT.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +94,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -62,19 +105,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/container-orchestration/phase 1" />
-      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.2" />
-      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.1" />
-      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cloud/hello-world" />
       <recent name="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/results" />
       <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java" />
+      <recent name="$PROJECT_DIR$/container-orchestration/phase 1" />
+      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.2" />
+      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.1" />
+      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -115,7 +158,9 @@
       <workItem from="1598349486150" duration="1084000" />
       <workItem from="1598399974133" duration="5987000" />
       <workItem from="1598595136008" duration="3237000" />
-      <workItem from="1598602143995" duration="5988000" />
+      <workItem from="1598602143995" duration="6583000" />
+      <workItem from="1598941757498" duration="1231000" />
+      <workItem from="1598943399371" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -163,18 +208,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598605272776">
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598943323588">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1598605272776" />
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1598943323588" />
     <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1598254899695">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1598943384866">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598254899695" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598943384866" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
