@@ -5,52 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config/const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/controllers/api/rabbitMQ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/utils/message-broker/message-requests/rabbitMQ-requests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/utils/message-broker/message-results/rabbitMQ-results.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/utils/message-broker/rabbitMQ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/k8s/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/skaffold.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/LOGS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/templates/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/templates/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/templates/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/templates/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/charts/subchart/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/requirements.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/templates/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/templates/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/templates/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/templates/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold-helm/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment-dependencies/skaffold.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/charts/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/charts/templates/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/charts/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/examples/helm-deployment/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/k8s/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -114,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 0" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/utils" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/node-rabbitMQ/backend" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/examples" />
-      <recent name="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
@@ -169,7 +129,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="12598000" />
+      <workItem from="1598952775749" duration="14452000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -271,7 +231,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template/app.js</url>
+          <url>file://$PROJECT_DIR$/container-orchestration-learning/phase 0/interacting-with-eth-container-from-template/app.js</url>
           <line>88</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>

@@ -33,3 +33,8 @@ spec:
               secretKeyRef:
                 name: rabbit-mq-secrets
                 key: cluster-ip
+          - name: MONGODB_URI
+            valueFrom:
+              secretKeyRef:
+                name: mongo-db-secrets
+                key: mongo-uri
