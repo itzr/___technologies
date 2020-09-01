@@ -38,3 +38,8 @@ spec:
               secretKeyRef:
                 name: mongo-db-secrets
                 key: mongo-uri
+          - name: INFURA_PROJECT_ID
+            valueFrom:
+              secretKeyRef:
+                name: infura-secrets
+                key: infura-id

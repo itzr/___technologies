@@ -87,6 +87,7 @@ exports.getCompound = (req, res, next) => {
         toBlock: 'latest'
     })
         .then(function(events){
+            console.log(events)
             res.send(events)
         }).catch((err) => {
             next(new Error(JSON.stringify(err)))

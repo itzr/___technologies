@@ -49,6 +49,7 @@ mongoose.connection.on('error', (err) => {
  * Controllers (route handlers).
  */
 const apiRabbitMQController = require('./controllers/api/rabbitMQ');
+const apiEthereumController = require('./controllers/api/ethereum');
 
 /**
  * Create Express server.
@@ -71,7 +72,11 @@ app.get('/', (req, res) => {
 /**
  * API examples routes.
  */
-app.get('/api/v1/test-rabbit', apiRabbitMQController.getRabbitTest),
+app.get('/api/v1/test-rabbit', apiRabbitMQController.getRabbitTest);
+app.get('/api/v1/test-infura-compound', apiEthereumController.getCompoundTest);
+// app.get('/api/infura', apiController.getInfura);
+// app.get('/api/db/post/test', apiController.getDBPost)
+// app.get('/api/db/get/test', apiController.getDBGet)
 
 /**
  * Run server

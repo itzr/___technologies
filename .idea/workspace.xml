@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config/events-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config/smart-contract-config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/controllers/api/ethereum.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 0/interacting-with-eth-container-raw/server/controllers/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 0/interacting-with-eth-container-raw/server/controllers/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config/const.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/k8s/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/rabbitMQ/README.md" afterDir="false" />
@@ -65,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
@@ -81,11 +86,11 @@
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/examples" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/examples" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/node-rabbitMQ" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold" />
-      <recent name="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -129,7 +134,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="14452000" />
+      <workItem from="1598952775749" duration="17958000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -213,19 +218,19 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598964858034" />
-    <state x="371" y="218" width="929" height="580" key="find.popup" timestamp="1598967306101">
+    <state x="371" y="218" width="929" height="580" key="find.popup" timestamp="1598973235233">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="371" y="218" width="929" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598967306101" />
+    <state x="371" y="218" width="929" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598973235233" />
     <state x="360" y="207" key="run.anything.popup" timestamp="1598966595114">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598965303275">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598974322255">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598965303275" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598974322255" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,3 +13,9 @@ validate: `kubectl exec -i -t <node-container> -- /bin/sh -c 'echo $<rabbit-mq-c
 ---- mongoURI ----
 
 pass mongoURI to node: `kubectl create secret generic mongo-db-secrets --from-literal=mongo-uri='<secret>'`
+
+---- InfuraAPI
+
+`INFURA_PROJECT_ID`
+
+pass infura ID to node: `kubectl create secret generic infura-secrets --from-literal=infura-id='<secret>'`
