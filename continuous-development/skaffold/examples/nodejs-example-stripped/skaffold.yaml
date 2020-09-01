@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+metadata:
+  name: nodejs-example-stripped
+build:
+  artifacts:
+  - image: node-example
+    context: backend
+deploy:
+  kubectl:
+    manifests:
+    - k8s/deployment.yaml

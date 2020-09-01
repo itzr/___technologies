@@ -1,53 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/COMMANDS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/ISSUES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/DraftDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/controller/RoukouController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/model/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/test/java/org/roukou/draft/DraftDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-app/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-app/kubernetes/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-web/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-web/kubernetes/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/leeroy-web/web.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/microservices/skaffold.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/backend/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/src/components/HelloWorld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/src/styles/HelloWorld.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/app/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/k8s/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuous-development/skaffold/react-reload/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/COMMANDS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/LEARNING-PHASE-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/LEARNING-PHASE-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/docs/versioning/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/docs/versioning/VERSIONING.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/docs/versioning/VERSIONING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/.helmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/Chart.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/charts/rabbitmq-ha-1.44.1.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/NOTES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/_helpers.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/serviceaccount.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/templates/tests/test-connection.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world-chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world-chart/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/config/rabbitMQ-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/kubernetes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/kubernetes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-requests/rabbitMQ-requests.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/message-requests/rabbitMQ-requests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/message-results/rabbitMQ-results.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/message-results/rabbitMQ-results.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/message/rabbitMQ.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/message/rabbitMQ.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/rabbitmq/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/rabbitmq/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.1/hello-world/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.1/hello-world/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/GET_STARTED.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/GET_STARTED.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/LOGS.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/phoenixnap-tutorial/LOGS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 1/phase.1.2/phoenixnap-tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 1/phase.1.2/phoenixnap-tutorial/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-orchestration/phase 2/SPEEDIER_DEVELOPMENT.md" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/SPEEDIER_DEVELOPMENT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/ISSUES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/.draft-tasks.toml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/.draft-tasks.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/.draftignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/.draftignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/charts/dummy-java/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/charts/dummy-java/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/draft.toml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/draft.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/DraftDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/src/main/java/org/roukou/draft/DraftDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/controller/RoukouController.java" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/src/main/java/org/roukou/draft/controller/RoukouController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/java/org/roukou/draft/model/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/src/main/java/org/roukou/draft/model/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java/src/test/java/org/roukou/draft/DraftDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-java/src/test/java/org/roukou/draft/DraftDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/.draft-tasks.toml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/.draft-tasks.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/.draftignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/.draftignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/charts/dummy-node/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/charts/dummy-node/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-node/draft.toml" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/draft (abandoned)/dummy-node/draft.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" beforeDir="false" afterPath="$PROJECT_DIR$/kubernetes/docs/granular/TOOLS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +116,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
@@ -97,27 +133,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/continuous-development/skaffold" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cloud/hello-world" />
-      <recent name="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server/message/results" />
-      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw/server" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped/backend" />
+      <recent name="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped" />
       <recent name="$PROJECT_DIR$/container-orchestration-tools/draft/dummy-java" />
       <recent name="$PROJECT_DIR$/container-orchestration/phase 1" />
       <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.2" />
-      <recent name="$PROJECT_DIR$/container-orchestration-phase-1/phase.1.1" />
-      <recent name="$PROJECT_DIR$/cloud/docs/versioning" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/continuous-development/skaffold" />
+      <recent name="$PROJECT_DIR$/continuous-development/skaffold/nodejs-example-stripped" />
+      <recent name="$PROJECT_DIR$/cloud/hello-world" />
+      <recent name="$PROJECT_DIR$/kubernetes/helm/degov-chart/charts" />
+      <recent name="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-raw" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -160,7 +196,8 @@
       <workItem from="1598595136008" duration="3237000" />
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
-      <workItem from="1598943399371" duration="1023000" />
+      <workItem from="1598943399371" duration="5799000" />
+      <workItem from="1598952775749" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -216,10 +253,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1598943384866">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1598953756572">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598943384866" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598953756572" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -244,15 +281,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598405047156" />
-    <state x="371" y="218" width="739" height="486" key="find.popup" timestamp="1597998115566">
+    <state x="371" y="218" width="739" height="580" key="find.popup" timestamp="1598955202905">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="371" y="218" width="739" height="486" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597998115566" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598604821185">
+    <state x="371" y="218" width="739" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598955202905" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598953710909">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598604821185" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598953710909" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
