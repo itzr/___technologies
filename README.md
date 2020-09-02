@@ -13,16 +13,12 @@
 - TensorFlow (ml; dataflow & differentiable programming)
 
 # Services
-
 ### Message Brokers
 - RabbitMQ
-
 ### Search Engines
 - ElasticSearch
-
 ### Language Models
 - GPT-3
-
 ### Authentication
 - OAuth2
 
@@ -45,30 +41,19 @@
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 
 # Tools
-
 ### Package Managers / Image Hub
 - NPM (js)
 - PIP (python)
 - Helm (kubernetes)
 - Docker Hub (docker)
 - pecl (php)
-
 ### Secret 
 - Vault (https://www.vaultproject.io)
-
 ### API 
 - Postman
-
 ### Cloud (tools)
 gcloud
 gsutil
-
-# No code software
-- Bubble.io
-- Webflow
-- Integromat
-- Zapier
-- AirTable
 
 # DB
 - Mongo (NoSQL)
@@ -91,11 +76,23 @@ Google Cloud Storage
 # Legacy
 Symfony Flex
 
+# General
+Gateway vs Proxies
+
 # Debuggers
 XDebug (php)
 
+# No code software
+- Bubble.io
+- Webflow
+- Integromat
+- Zapier
+- AirTable
+
 # Resources
 - https://www.katacoda.com/
+
+# From
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain

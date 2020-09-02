@@ -47,13 +47,43 @@ monitoring systems are:
 - pushgateway: Push acceptor for ephemeral and batch jobs (ephemeral = lasting a very short time)
 - StatsD: statsD to prometheus
 
-### What is?
+### Integrations (What are they?)
 
-- Consul metrics: 
+- Consul: 
+    - A service mesh solution (by Hashicorp) providing a full featured control plane
+    - Provides service discovery, configuration, and segmentation functionality
+    - Features can be used individually or in a full-service mesh
+    - Requires a data plane
+    - Supports proxy and native integration
+    - Key Features
+        - Service discovery:
+            Clients of Consul can register a service (such as api or mysqL), other clients can use Consul to discover providers of a given servic
+        - Health Checking
+        - KV Store
+        - Secure Service Communication: Generates and distributes TLS certificates
+        - Supports Multi Datacenter out of the box.
 - Graphite protocol: 
+    - Stores numeric time-series data
+    - Renders graphs of this data on demand
+    - It DOES NOT collect data. You need to send data to Graphite!
+    - **Tools** that work with Graphite: https://graphite.readthedocs.io/en/latest/tools.html
 - HaProxy: 
+    - High availability load balancer and proxy server for TCP & HTTP-based apps
+    - Spreads requests across multiple servers
 - Memcache: 
+    - General-purpose distributed memory-caching system
 - Push acceptor: 
+    - For metrics that are not long enough to be scraped. 
+    - Instead, they push metrics to a Pushgateway.
+    - Not an aggregator, Not a distributed counter
+    - It is a metrics cache.
 - StatsD: 
+    - A network daemon that runs on the Node.js platform
+    - Listens for statistics, like counters and timers,
+    - Sends statistics over UDP or TCP
+    - It sends aggregates to one or more pluggable backend services (e.g., Graphite).
 - Pagerduty:
+    - Incident management platform
+    - Provides reliable notifications, automatic escalations, on-call scheduling, and more
 - OpsGenie: 
+    - Alerting and incidence response tool
