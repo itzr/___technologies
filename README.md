@@ -1,53 +1,69 @@
 # Learn by doing repo
 
-## Other
-- GraphQL API
-- WASM
-- GIS (Geographic Information System)
-- GPT-3
-- ElasticSearch
-- Managing Logs
-- 
+**dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
 
-# Message Brokers
+# Frameworks
+- GIS (Geographic Information System)
+
+# Languages
+- GraphQL API (querying)
+- WASM (binary instruction format for a stack-based vm)
+
+# Libraries
+- TensorFlow (ml; dataflow & differentiable programming)
+
+# Services
+
+### Message Brokers
 - RabbitMQ
 
-# Authentication
+### Search Engines
+- ElasticSearch
+
+### Language Models
+- GPT-3
+
+### Authentication
 - OAuth2
+
+# Process Control
+### Logging
+### Debugging
+### Monitoring
+- Prometheus
+- Supervisor
 
 # Blockchain
 - Interacting with Ethereum
 
-# Machine Learning
-- TensorFlow
-
 # Testing
 - Jest
 
-## Dev Ops
+# Software as Infrastructure
 - Kubernetes: Deploy, scale, update & debug containerized applications 
 - Docker: Compose a containerized applicaton
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 
-## Package Managers / Image Hub
+# Tools
+
+### Package Managers / Image Hub
 - NPM (js)
 - PIP (python)
 - Helm (kubernetes)
 - Docker Hub (docker)
 - pecl (php)
 
-## Tools
-##### Secret (tools)
-- vault https://www.vaultproject.io
+### Secret 
+- Vault (https://www.vaultproject.io)
 
-##### API (tools)
+### API 
 - Postman
 
-##### Cloud (tools)
+### Cloud (tools)
 gcloud
 gsutil
 
-## No code software
+# No code software
 - Bubble.io
 - Webflow
 - Integromat
@@ -56,23 +72,18 @@ gsutil
 
 # DB
 - Mongo (NoSQL)
+- MySQL (SQL)
 
-# DB (types)
-- SQl
-- NoSQL
-
-# Resource
-- https://www.katacoda.com/
-
-# Bash
+# Command Line
+### Bash
+### Sh
+### Zsh
+### General
 - Scripting
 - 'Starter-Scripts'
 
 # Network Science
 Network Ports
-
-# Monitoring Systems
-Prometheus
 
 # Cloud Storage
 Google Cloud Storage
@@ -83,10 +94,12 @@ Symfony Flex
 # Debuggers
 XDebug (php)
 
+# Resources
+- https://www.katacoda.com/
+
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
 2. See DV PR’s with API for Keyword Module (PHP / Symfony)
 3. Write an alias for the docker command to enter a container (bash)
     -. https://askubuntu.com/questions/626458/can-i-pass-arguments-to-an-alias-command
-
 

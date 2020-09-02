@@ -29,13 +29,15 @@ monitoring systems are:
 ## Core Modules
 - Prometheus: Monitoring system and time series database
 - Alert manager: 
-    - The Alertmanager handles alerts sent by 
+    - The Alert-manager handles alerts sent by 
     client applications such as the Prometheus server. 
-    - It takes care of deduplicating, grouping, and routing them 
+    - It takes care of de-duplicating, grouping, and routing them 
     to the correct receiver integrations such as email, PagerDuty, 
     or OpsGenie. 
     - It also takes care of silencing and inhibition of alerts.
 - Blackbox prober:
+    - The blackbox exporter allows blackbox probing of endpoints 
+    - Can use: HTTP, HTTPS, DNS, TCP and ICMP. 
 - Exporter for Consul metrics
 - graphite_exporter: Server that accepts metrics via the Graphite protocol and exports them as Prometheus metrics
 - haproxy_exporter: Scrapes HAProxy stats and exports them via HTTP for Prometheus consumption
@@ -47,11 +49,11 @@ monitoring systems are:
 
 ### What is?
 
-- Consul metrics
-- Graphite protocol
-- HaProxy
-- Memcache
-- Push acceptor
-- StatsD
-- Pagerduty
-- OpsGenie
+- Consul metrics: 
+- Graphite protocol: 
+- HaProxy: 
+- Memcache: 
+- Push acceptor: 
+- StatsD: 
+- Pagerduty:
+- OpsGenie: 
