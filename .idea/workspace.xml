@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/job/cronjob.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kubernetes/docs/granular/ACCESSS_THE_UI_DASHBOARD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/dashboard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/job/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/job/cronjob-dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/job/cronjob.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/job/cronjob.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -127,7 +128,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="20251000" />
+      <workItem from="1598952775749" duration="23200000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -219,11 +220,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598976577563">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599005982251">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598976577563" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599005982251" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

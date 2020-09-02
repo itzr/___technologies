@@ -1,4 +1,6 @@
-### Example: Node.js with hot-reload
+### Example: Node.js with hot-reload 
+
+**Adapted from Skaffold /examples**
 
 Simple example based on Node.js demonstrating the file synchronization mode.
 

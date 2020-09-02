@@ -1,2 +1,4 @@
-- running cronjobs or tasks in cluster
+- running cronjobs or tasks in cluster (in progress)
 - handling logs 
+- http vs tcp
+- authentication for api calls
