@@ -13,11 +13,12 @@ spec:
           # NOTE. Running a curl command as below will not work because the command is
           # not run inside the shell! Therefore is does not have access to the required env variables args:
           #'curl $NODE_SERVICE_HOST:$NODE_SERVICE_PORT/api/v1/test-infura-compound && sleep 3600"
-
+          # https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/
           command: [
               'sh',
               '-c',
-              'echo "Hello Mr Kubernetes!" && sleep 3600"
+#              'echo "Hello Mr Kubernetes!" && sleep 3600'
           ]
+          args: ["curl $(NODE_SERVICE_HOST):$(NODE_SERVICE_PORT)/api/v1/test-infura-compound; sleep 3600"]
       restartPolicy: OnFailure
     # The pod template ends here

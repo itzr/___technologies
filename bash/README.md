@@ -65,3 +65,11 @@ To check the result, echo $y.
 The result will be the string '$foo'
 Now we repeat the assignment with eval. It will first evaluate $x to the string 'foo'. Now we have the statement y=$foo which will get evaluated to y=10.
 The result of echo $y is now the value '10'.
+
+
+### Semicolons ;
+
+When the shell sees a semicolon (;) 
+on a command line, it's treated as a 
+command separator -- basically like 
+pressing the ENTER key to execute a command. 

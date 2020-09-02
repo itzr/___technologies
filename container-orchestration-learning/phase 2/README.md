@@ -2,14 +2,16 @@
 
 - Injecting sensitive variables into clusters (done)
 
-- Speedy development process
+- Speedy development process (done)
 
-- Explore:
+- *extra* Running cronjobs or tasks in cluster (done)
+
+- Explore (done) :
     - Prometheus (scrapes ports for analytics; monitoring system)
     - Grafana (query, visualize and alert on metrics & logs)
     - Tekton (framework to create cloud-native CI/CD pipelines quickly.)
     - Cri-o (lightweight alternative to docker)
-- Access the Kubernetes dashboard: 
+- Access the Kubernetes dashboard (done): 
     - (dashboard): 
         - run `k-gui` alias for `kubectl proxy`
         - go to `http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/.`
