@@ -77,7 +77,7 @@ Google Cloud Storage
 Symfony Flex
 
 # General
-Gateway vs Proxies
+Gateway vs Proxies (https://www.w3.org/Library.old/User/Using/Proxy.html)
 
 # Debuggers
 XDebug (php)
@@ -91,8 +91,6 @@ XDebug (php)
 
 # Resources
 - https://www.katacoda.com/
-
-# From
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
