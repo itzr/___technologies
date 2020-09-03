@@ -1,3 +1,36 @@
+# Commands
+
+see volumes: `docker volume ls`
+create a volume: `docker volume create my-vol`
+inspect a volume: `docker volume inspect my-vol`
+remove a volume: `docker volume rm <vol-name>`
+start a container with a volume (-mount): 
+```bash
+docker run -d \
+  --name devtest \
+  --mount source=myvol2,target=/app \
+  nginx:latest
+```
+start a container with a volume (-v): 
+```bash
+docker run -d \
+  --name devtest \
+  -v myvol2:/app \
+  nginx:latest
+```
+start a service with a volume:
+```bash
+docker service create -d \
+  --replicas=4 \
+  --name devtest-service \
+  --mount source=myvol2,target=/app \
+  nginx:latest
+```
+**None of the containers can share this data**
+**if you use the local volume driver**
+
+*When mounting to a service, must use -mount, not -v*
+
 ## WHAT WORKED
 
 Server with Node and Express: https://nodejs.org/en/docs/guides/nodejs-docker-webapp/

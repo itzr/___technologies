@@ -16,6 +16,10 @@
 - make & makefiles: https://www.gnu.org/software/make/manual/html_node/Introduction.html
 - handling args
 
+## Writing
+`curl -o <file> <uri>`
+
+
 ## GENERAL DEBUGGING
 
 Command not found typically results from 2 cases:

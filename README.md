@@ -41,6 +41,8 @@
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 
 # Tools
+### Checklists
+- Checkists for tasks, stories and epics  (e.g. API, UI, etc) going into sprints
 ### Package Managers / Image Hub
 - NPM (js)
 - PIP (python)

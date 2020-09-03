@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/containers/docker/docs/manage-application-data/VOLUMNES_AND_BIND_MOUNTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase 3/scraping/use-file-based-service-discovery-to-discover-scrape-targets/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain/ethereum/set_up_dev_env/SET_UP_DEV_ENV.md" beforeDir="false" afterPath="$PROJECT_DIR$/blockchain/ethereum/set_up_dev_env/SET_UP_DEV_ENV.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/docker/docs/manage-application-data/VOLUMNES_AND_BIND_MOUNTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker/docs/manage-application-data/VOLUMNES_AND_BIND_MOUNTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process-control/monitoring/prometheus/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -122,7 +125,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="35707000" />
+      <workItem from="1598952775749" duration="40592000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -178,10 +181,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1598953756572">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1599046300277">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598953756572" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599046300277" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -214,11 +217,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599024302888">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599045404907">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599024302888" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599045404907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

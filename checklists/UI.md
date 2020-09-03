@@ -1,0 +1,5 @@
+- mock ups
+	- component
+	- how it fits into the bigger UI
+- account for responsive web design
+- account for mobile friendliness (mobile-first)

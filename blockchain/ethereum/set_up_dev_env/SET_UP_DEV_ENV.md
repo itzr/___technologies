@@ -1,4 +1,4 @@
-To interact with smart contracts, you need an access point to the network.
+wTo interact with smart contracts, you need an access point to the network.
 
 #### Concepts/Requirements
 - Solidity

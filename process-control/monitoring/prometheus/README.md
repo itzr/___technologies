@@ -87,3 +87,57 @@ monitoring systems are:
     - Provides reliable notifications, automatic escalations, on-call scheduling, and more
 - OpsGenie: 
     - Alerting and incidence response tool
+
+## Get Started
+
+w/ volume:
+```bash
+docker run \
+    -p 9090:9090 \
+    -v /path/to/config:/etc/prometheus \
+    prom/prometheus
+```
+
+w/ bind mount:
+```bash
+docker run \
+    -p 9090:9090 \
+    -v /tmp/prometheus.yml:/etc/prometheus/prometheus.yml \
+    prom/prometheus
+```
+
+alternative is to bake config into the image:
+```bash
+FROM prom/prometheus
+ADD prometheus.yml /etc/prometheus/
+```
+*then build & run*
+
+## Configuration
+- via:
+    - command-line flags
+    - a configuration file
+- flags for immutable system parameters:
+    - storage locations (docker volume?)
+    - amount of data to keep on a) disk & b) memory
+- file for everything related to scraping:
+    - jobs
+    - instances
+    - which rule files to load
+- can reload config at runtime
+- reload trigger:   
+    - opt 1: `SIGHUP`
+    - opt 2: *HTTP POST* `/-/reload` (depends on a flag.)
+
+Configuration (https://prometheus.io/docs/prometheus/latest/configuration/configuration/)
+- global config: specifies params valid in all other config contexts. Serve as defaults
+- scrape_config: specifies a set of targets and parameters, describes how to scape
+    - one scrape config = a single job
+    - includes: HTTP resource path, set basic_auth, bearer_token &/OR bearer_token_file, tls config, proxy_url
+    - service discovery configurations for:
+        - azure, consul, digitalocean, docker swarm, dns, ec2, file, gce, marathon, airbnb nerve, openstack
+        - zookeeper, triton
+    - labeled statically configured targets
+    - relabel config.
+    
+    # Guide
