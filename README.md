@@ -12,6 +12,11 @@
 # Libraries
 - TensorFlow (ml; dataflow & differentiable programming)
 
+# API
+### Gateway
+- Kong
+### Proxy
+
 # Services
 ### Message Brokers
 - RabbitMQ

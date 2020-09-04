@@ -140,4 +140,3 @@ Configuration (https://prometheus.io/docs/prometheus/latest/configuration/config
     - labeled statically configured targets
     - relabel config.
     
-    # Guide
