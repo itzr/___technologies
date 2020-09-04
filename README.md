@@ -51,6 +51,9 @@
 - Docker: Compose a containerized applicaton
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 
+# Infrastructure as a Service
+- Google Compute Engine (GCE)
+
 # Tools
 ### Checklists
 - Checkists for tasks, stories and epics  (e.g. API, UI, etc) going into sprints

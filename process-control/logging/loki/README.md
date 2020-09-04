@@ -28,3 +28,10 @@ Loki differs from Prometheus by focusing
 on logs instead of metrics, and delivering 
 logs via push, instead of pull.
 
+### Install 
+
+with docker: `docker-compose up`
+with helm (kubernetes): 
+1: `helm repo add loki https://grafana.github.io/loki/charts`
+2: `helm repo update`
+3 (main): `helm upgrade --install loki loki/loki-stack  --set grafana.enabled=true,prometheus.enabled=true,prometheus.alertmanager.persistentVolume.enabled=false,prometheus.server.persistentVolume.enabled=false`

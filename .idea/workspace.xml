@@ -5,11 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/monitor-docker-cadvisor/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/monitor-docker-cadvisor/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/gateway/kong/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/kubernetes/docs/concepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/kubernetes/docs/concepts/services, load balancing &amp; networking/INGRESS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/kubernetes/docs/concepts/services, load balancing &amp; networking/INGRESS_CONTROLLER.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log/prometheus.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase 3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase 3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/COMMANDS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/COMMANDS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/ISSUES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/Chart.lock" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/Chart.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/charts/helm-node-0.1.0.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/charts/helm-node-0.1.0.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/charts/rabbitmq-ha-1.44.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/charts/rabbitmq-ha-1.44.1.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/templates/tests/test-connection.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/degov-chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/degov-chart/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/helm-node-0.1.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/helm-node-0.1.1.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/templates/tests/test-connection.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/templates/tests/test-connection.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/helm-node/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/helm-node/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/OWNERS" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/OWNERS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/ci/prometheus-exporter-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/ci/prometheus-exporter-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/ci/prometheus-plugin-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/ci/prometheus-plugin-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/alerts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/alerts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/pdb.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/pdb.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/role.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/role.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/rolebinding.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/rolebinding.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/secret.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/service-discovery.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/service-discovery.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/servicemonitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/servicemonitor.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/templates/statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/templates/statefulset.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/helm/rabbitmq-helm/rabbitmq-ha/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/helm/rabbitmq-helm/rabbitmq-ha/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process-control/logging/loki/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/process-control/logging/loki/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +117,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -68,18 +126,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/gateway/kong" />
+      <recent name="$PROJECT_DIR$/containers" />
       <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/node-exporter" />
       <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/blackbox-exporter" />
       <recent name="$PROJECT_DIR$/blockchain" />
-      <recent name="$PROJECT_DIR$/database" />
-      <recent name="$PROJECT_DIR$/search-engine" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/examples" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/node-rabbitMQ" />
-      <recent name="$PROJECT_DIR$/continuous-development/skaffold" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -123,7 +181,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="51440000" />
+      <workItem from="1598952775749" duration="55491000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -179,10 +237,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1599113923267">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1599208567742">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599113923267" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599208567742" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -215,11 +273,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599196955866">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599210381619">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597881015207" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599196955866" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599210381619" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

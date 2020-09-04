@@ -16,3 +16,6 @@
 ### Other 
 overwrite: `echo 'text' > <file>`
 add to file: `echo 'text' >> <file>`
+
+### Make a file executable
+`chmod +x <file>`
