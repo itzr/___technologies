@@ -17,6 +17,12 @@
 - Kong
 ### Proxy
 
+# Server
+### Reverse Proxy
+*sits in front of web servers and forwards client requests*
+*increase security, performance, and reliability
+- nginx
+
 # Services
 ### Message Brokers
 - RabbitMQ
