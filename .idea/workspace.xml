@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/basic-install-prometheus.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/run-prom.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/monitor-docker-cadvisor/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/monitor-docker-cadvisor/prometheus.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/basic-auth/nginx.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +123,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="50476000" />
+      <workItem from="1598952775749" duration="51440000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -175,10 +171,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598966930740">
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599201298463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1598966930740" />
+    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1599201298463" />
     <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
