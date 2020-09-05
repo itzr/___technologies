@@ -16,12 +16,22 @@
 ### Gateway
 - Kong
 ### Proxy
+### Documentation
+- Swagger
 
 # Server
 ### Reverse Proxy
 *sits in front of web servers and forwards client requests*
 *increase security, performance, and reliability
 - nginx
+
+# Microservices
+### Containers (Software as Infrastructure)
+- Kubernetes: Deploy, scale, update & debug containerized applications 
+- Docker: Compose a containerized applicaton
+- Docker-Swarm: Container orchestration & Docker's native clustering engine
+### Service Mesh
+- Istio
 
 # Services
 ### Message Brokers
@@ -32,6 +42,7 @@
 - GPT-3
 ### Authentication
 - OAuth2
+
 
 # Process Control
 ### Logging
@@ -46,10 +57,7 @@
 # Testing
 - Jest
 
-# Software as Infrastructure
-- Kubernetes: Deploy, scale, update & debug containerized applications 
-- Docker: Compose a containerized applicaton
-- Docker-Swarm: Container orchestration & Docker's native clustering engine
+
 
 # Infrastructure as a Service
 - Google Compute Engine (GCE)

@@ -16,8 +16,30 @@
 - make & makefiles: https://www.gnu.org/software/make/manual/html_node/Introduction.html
 - handling args
 
+## curl
+
+Guide: https://curl.haxx.se/docs/manpage.html
+
+Writing to a file: `curl -o <file> <uri>` 
+    * -o :  Write output to <file> instead of stdout.
+
+POST request: `curl -i -X POST \
+  --url http://localhost:8001/services/ \
+  --data 'name=example-service' \
+  --data 'url=http://mockbin.org'`
+  * -i : Include the HTTP response headers in the output.*
+  * -X, --request:
+    - (HTTP) Specifies a custom request method to use when 
+    communicating with the HTTP server.
+    - Normally you don't need this option. 
+    All sorts of GET, HEAD, POST and PUT requests are 
+    rather invoked by using dedicated command line options. 
+    - This option only changes the actual 
+    word used in the HTTP request, 
+    it does not alter the way curl behaves.*
+
+
 ## Writing
-`curl -o <file> <uri>`
 
 ## Detach from CLT (?)
 

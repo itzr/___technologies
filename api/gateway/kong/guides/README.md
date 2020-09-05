@@ -1,4 +1,7 @@
 Guides & References: https://docs.konghq.com/2.1.x/getting-started/introduction/
+^^ THESE GUIDES ARE NOT RELEVANT ^^
+
+Use these guides instead: https://github.com/Kong/kubernetes-ingress-controller/tree/main/docs/guides
 
 # The Basic Idea
 
