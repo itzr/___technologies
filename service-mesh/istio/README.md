@@ -1,3 +1,5 @@
+Guide w/Kong: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md
+
 # Itsio: Service Mesh
 
 Basic: https://www.youtube.com/watch?v=1iyFq2VaL5Y
