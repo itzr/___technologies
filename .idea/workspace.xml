@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/kubernetes.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-mesh/istio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/service-mesh/istio/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="63208000" />
+      <workItem from="1598952775749" duration="64034000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -204,10 +202,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598399976786" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598964858034">
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599295330377">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1598964858034" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1599295330377" />
     <state x="371" y="218" width="929" height="580" key="find.popup" timestamp="1599026926405">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
