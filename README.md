@@ -37,6 +37,7 @@
 - Docker-Swarm: Container orchestration & Docker's native clustering engine
 ### Service Mesh
 - Istio
+- Kiali (Service Mesh Visualisation)
 
 # Services
 ### Message Brokers
@@ -47,6 +48,8 @@
 - GPT-3
 ### Authentication
 - OAuth2
+### Proxy 
+- Envoy (proxy and communication bus)
 
 # Process Control
 ### Logging
