@@ -1,0 +1,25 @@
+# Todo - REMEMBER TO INSTALL FIRST!!!
+# 1st: Install 2 services: echo & httpbin
+# kubectl apply -f https://bit.ly/k8s-httpbin
+# kubectl apply -f https://bit.ly/echo-service
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: demo
+  annotations:
+    konghq.com/strip-path: "true"
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /foo
+            backend:
+              serviceName: httpbin
+              servicePort: 80
+          - path: /bar
+            backend:
+              serviceName: echo
+              servicePort: 80
+# How to test endpoints:
+# curl -i $PROXY_IP/foo/status/200
+# curl -i $PROXY_IP/bar

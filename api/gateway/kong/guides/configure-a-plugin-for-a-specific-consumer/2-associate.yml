@@ -1,0 +1,9 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: harry
+  annotations:
+    konghq.com/plugins: harry-rate-limit
+username: harry
+credentials:
+  - harry-apikey

@@ -1,0 +1,8 @@
+# WARNING
+# After installation, you must associate it with the Ingress rules
+# kubectl patch service httpbin -p '{"metadata":{"annotations":{"konghq.com/plugins":"httpbin-auth"}}}'
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: httpbin-auth
+plugin: key-auth

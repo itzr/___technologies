@@ -1,0 +1,15 @@
+# GOALS
+#  1) Configure Kong to hash the requests based on IP address of the client.
+#  2) Configure Kong to proxy all the request on /foo to /bar.
+
+#### WARNING: AFTER INSTALLATION, RUN:
+# kubectl patch service echo -p '{"metadata":{"annotations":{"configuration.konghq.com":"demo-customization"}}}'
+
+apiVersion: configuration.konghq.com/v1
+kind: KongIngress
+metadata:
+  name: demo-customization
+upstream:
+  hash_on: ip
+proxy:
+  path: /bar/

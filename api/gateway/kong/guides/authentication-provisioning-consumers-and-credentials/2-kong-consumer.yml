@@ -1,0 +1,7 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongConsumer
+metadata:
+  name: harry
+username: harry
+credentials:
+  - harry-apikey
