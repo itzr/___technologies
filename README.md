@@ -1,7 +1,12 @@
-# Learn by doing repo
+**reminder: `kubectl port-forward`**
+
+**reminder: `kubectl port-forward service/grafana 3000:3000 -n istio-system`**
+
+**game changer: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md**
 
 **dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
 
+# Learn by doing repo
 # Frameworks
 - GIS (Geographic Information System)
 
@@ -43,7 +48,6 @@
 ### Authentication
 - OAuth2
 
-
 # Process Control
 ### Logging
 ### Debugging
@@ -56,8 +60,6 @@
 
 # Testing
 - Jest
-
-
 
 # Infrastructure as a Service
 - Google Compute Engine (GCE)

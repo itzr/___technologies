@@ -1,4 +1,17 @@
+#proxy:
+#  externalIPs: [ "127.0.0.1" ]
 #admin:
 #  enabled: true
 #env:
 #  admin_listen: 0.0.0.0:8001
+#cluster:
+#  externalIPs: [ '0.0.0.0' ]
+#  proxy:
+#    ingress:
+#      hosts: [ '0.0.0.0' ]
+#proxy:
+#  http:
+#    servicePort: 82
+#image:
+#  repository: kong
+#  tag: "1.3"

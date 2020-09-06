@@ -232,6 +232,7 @@ proxy:
 
   externalIPs: []
 
+
 # Custom Kong plugins can be loaded into Kong by mounting the plugin code
 # into the file-system of Kong container.
 # The plugin code should be present in ConfigMap or Secret inside the same

@@ -1,3 +1,22 @@
+### ACL (Access Control List)
+
+An ACL is a list of user permissions for 
+a file, folder, or other object. 
+It defines what users and groups can 
+access the object and what operations they 
+can perform. While ACLs are typically hidden 
+from the user, they can often be modified using 
+a graphical interface.
+
+### JWT (JSON Web Tokens)
+
+JSON Web Token is an Internet standard 
+for creating data with optional signature 
+and/or optional encryption whose payload 
+holds JSON that asserts some number of claims. 
+The tokens are signed either using 
+a private secret or a public/private key.
+
 ### URL (Uniform Resource Locator)
 
 https://blog.brand.com/practice-area/published-blog-post
