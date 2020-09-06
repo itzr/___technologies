@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/api/gateway/kong/guides/INSTALLATION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/gateway/kong/guides/kong-with-node-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/appending-to-path/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime-environments/nodejs/QUERKS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/basic/1-basic-operator-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/basic/1_INSTALLATION.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/basic/2_CONFIG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/clean-up/clean-up.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/networking/cluster-networking-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/networking/destination-rules.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/cluster-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/server-example-only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/verify.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-mesh/istio/virtual-machine-integration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/INSTALLATION.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase 3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase 3/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-mesh/istio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/service-mesh/istio/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -68,19 +85,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/api/gateway/kong/guides" />
-      <recent name="$PROJECT_DIR$/api/gateway/kong/guides/control-proxy-behaviour/ingress-resource" />
-      <recent name="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/binaries" />
-      <recent name="$PROJECT_DIR$/api/gateway/kong/utilities" />
-      <recent name="$PROJECT_DIR$/api/gateway/kong" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
       <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/examples" />
       <recent name="$PROJECT_DIR$/continuous-development/skaffold/node-rabbitMQ" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-mesh/istio/book-app/platform" />
+      <recent name="$PROJECT_DIR$/service-mesh/istio/book-app" />
+      <recent name="$PROJECT_DIR$/api/gateway/kong/guides" />
+      <recent name="$PROJECT_DIR$/api/gateway/kong/guides/control-proxy-behaviour/ingress-resource" />
+      <recent name="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/binaries" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
@@ -124,7 +141,8 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="76507000" />
+      <workItem from="1598952775749" duration="78124000" />
+      <workItem from="1599367061904" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -172,10 +190,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599201298463">
+    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599367093140">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="417" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1599201298463" />
+    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1599367093140" />
     <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -217,11 +235,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599351836718">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599372984945">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599350486215" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599351836718" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599372984945" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

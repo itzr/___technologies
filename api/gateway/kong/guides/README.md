@@ -3,6 +3,10 @@ Guides & References: https://docs.konghq.com/2.1.x/getting-started/introduction/
 
 Use these guides instead: https://github.com/Kong/kubernetes-ingress-controller/tree/main/docs/guides
 
+# Why Kong?
+
+*"Easy to maintain" was stated as the key factor in picking Kong.*
+
 # The Basic Idea
 
 API Layer.

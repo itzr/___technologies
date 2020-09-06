@@ -1,3 +1,8 @@
+# Task:
+
+- Set up Project with Kong (and perhaps Istio)
+    - guide: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md
+    
 ### Objectives
 
 - handling logs on Kubernetes (in progress)
@@ -12,3 +17,4 @@
 
 # Logging and monitoring
 - Launch Loki with extras on cluster (see /loki/*) and configure 
+
