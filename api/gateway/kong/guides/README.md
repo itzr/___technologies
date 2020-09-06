@@ -5,7 +5,13 @@ Use these guides instead: https://github.com/Kong/kubernetes-ingress-controller/
 
 # The Basic Idea
 
-Database abstraction with routing and plugin management
+API Layer.
+
+Database abstraction with routing and plugin management.
+
+Provides a flexible abstraction layer that 
+securely manages communication between 
+clients and microservices via API.
 
 # Features
 

@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/api/gateway/kong/guides/INSTALLATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/gateway/kong/guides/kong-with-node-js/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/kong/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway/kong/INSTALLATION.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/kubernetes/WARNING.MD" beforeDir="false" afterPath="$PROJECT_DIR$/containers/kubernetes/WARNING.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/gateway/kong/guides" />
       <recent name="$PROJECT_DIR$/api/gateway/kong/guides/control-proxy-behaviour/ingress-resource" />
       <recent name="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/binaries" />
       <recent name="$PROJECT_DIR$/api/gateway/kong/utilities" />
       <recent name="$PROJECT_DIR$/api/gateway/kong" />
-      <recent name="$PROJECT_DIR$/containers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
@@ -124,7 +124,7 @@
       <workItem from="1598602143995" duration="6583000" />
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
-      <workItem from="1598952775749" duration="74739000" />
+      <workItem from="1598952775749" duration="76507000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
