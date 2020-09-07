@@ -1,7 +1,14 @@
 # Task:
 
-- Set up Project with Kong (and perhaps Istio)
-    - guide: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md
+- Set up Project with Kong and Istio (bootstrap from kong ingress controller chart guide 2)
+    - Current Stack
+        - NodeJs
+        - RabbitMQ
+        - MongoDB
+    - Additional Features:
+        - API Authentication (as a service)
+        - All process-control featured in the Istio book example
+    - **Guide**: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md
     
 ### Objectives
 
