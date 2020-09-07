@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/network-science/bus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network-science/osi-model/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/envoy/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/COMMANDS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network-science/osi-model (open systems interconnection)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/network-science/osi-model (open systems interconnection)/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +127,7 @@
       <workItem from="1598941757498" duration="1231000" />
       <workItem from="1598943399371" duration="5799000" />
       <workItem from="1598952775749" duration="78124000" />
-      <workItem from="1599367061904" duration="6659000" />
+      <workItem from="1599367061904" duration="13031000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -225,11 +220,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599378189756">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599471765400">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599350486215" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599378189756" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599471765400" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
