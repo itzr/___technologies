@@ -97,7 +97,9 @@ gsutil
 - 'Starter-Scripts'
 
 # Network Science
-Network Ports
+- Network Ports
+- Bus
+- OSI Model (Open Systems Interconnection)
 
 # Cloud Storage
 Google Cloud Storage

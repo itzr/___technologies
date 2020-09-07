@@ -38,6 +38,8 @@ POST request: `curl -i -X POST \
     word used in the HTTP request, 
     it does not alter the way curl behaves.*
 
+Monitor Server Health:
+`$ watch -n 1 curl -o /dev/null -s -w %{http_code} $GATEWAY_URL/productpage`
 
 ## Writing
 
