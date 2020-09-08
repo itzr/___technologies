@@ -7,8 +7,13 @@
         - MongoDB
     - Additional Features:
         - API Authentication (as a service)
-        - All process-control featured in the Istio book example
+        - All process-control featured in the Istio book example (Kiali, etc)
     - **Guide**: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md
+ 
+#### Starting Point
+- Breakdown and diagnose the book info app. 
+- Keep active on a separate namespace with the same cluster
+
     
 ### Objectives
 
