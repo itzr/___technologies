@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/1-installation-script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/2-installation-script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/3-installation-script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/istio-operator.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/proxy-traffic-to-a-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase 3/installation/rate-limit.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase 3/scraping/use-file-based-service-discovery-to-discover-scrape-targets/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/process-control/monitoring/prometheus/scraping/use-file-based-service-discovery-to-discover-scrape-targets/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase 3/installation/3-installation-script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase 3/installation/3-installation-script.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/clean-up/clean-up.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/networking/cluster-networking-config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/networking/destination-rules.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/cluster-config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/server-example-only.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/book-app/platform/verify.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +133,7 @@
       <workItem from="1599474970598" duration="69000" />
       <workItem from="1599545255025" duration="589000" />
       <workItem from="1599615681538" duration="820000" />
-      <workItem from="1599628605374" duration="3019000" />
+      <workItem from="1599628605374" duration="4015000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
