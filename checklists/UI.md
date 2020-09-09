@@ -6,3 +6,4 @@
 - if there is POST request.
     - are the UI Inputs mapped to given endpoints
     - If there are endpoints unsatisfied by the input, are the defaults provided?
+- Is the USER FLOW defined
