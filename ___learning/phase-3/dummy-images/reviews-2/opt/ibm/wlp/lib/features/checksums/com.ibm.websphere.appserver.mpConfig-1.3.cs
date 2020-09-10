@@ -1,0 +1,9 @@
+#Wed Jun 17 07:16:15 GMT 2020
+lib/com.ibm.ws.org.apache.commons.lang3_1.0.41.jar=ac86baad91a5b11c8c13d9c8ccda1350
+lib/com.ibm.ws.microprofile.config.1.1_2.0.41.jar=7244ed12ba3cf09c1fbf6b4cddc1689b
+lib/com.ibm.ws.microprofile.config.1.3.services_1.0.41.jar=db8d3d3fd0d8f6a52b0e5c579452cd20
+lib/com.ibm.ws.cdi.interfaces_1.0.41.jar=4f469cc1b45c407cb2ad261265d80e2c
+lib/com.ibm.ws.microprofile.config.1.2_1.0.41.jar=1ee6fbe814472e2339ddfaf9810ac8ac
+lib/features/com.ibm.websphere.appserver.mpConfig-1.3.mf=264d26b37475c8e501a675ba76274588
+lib/com.ibm.ws.require.java8_1.0.41.jar=3356ee880ce2788f173334214617d492
+lib/com.ibm.ws.microprofile.config.1.3_1.0.41.jar=084fa11bbc5ea8d45c44d2983a94eedc
