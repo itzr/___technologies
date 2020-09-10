@@ -6,6 +6,8 @@
 
 **dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
 
+**what tools do sysadmin use??**
+
 # Learn by doing repo
 # Frameworks
 - GIS (Geographic Information System)
@@ -24,7 +26,7 @@
 ### Documentation
 - Swagger
 
-# Server
+# Server Types
 ### Reverse Proxy
 *sits in front of web servers and forwards client requests*
 *increase security, performance, and reliability
@@ -50,7 +52,10 @@
 - OAuth2
 ### Proxy 
 - Envoy (proxy and communication bus)
+### Automation Server for Continuous Integration
+- Jenkis (https://www.edureka.co/blog/what-is-jenkins/)
 
+    
 # Process Control
 ### Logging
 ### Debugging
