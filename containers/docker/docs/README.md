@@ -35,3 +35,7 @@ RUN \
   apk del sed build-base git make cmake gcc g++ musl-dev curl-dev boost-dev                                 && \
   rm -rf /var/cache/apk/*
 
+### What does #(nop) mean in docker history?
+NOP stands for "no operation".
+The # sign marks the start of the comment and anything after that will be skipped by the /bin/sh. 
+

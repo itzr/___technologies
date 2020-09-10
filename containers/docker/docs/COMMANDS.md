@@ -1,7 +1,5 @@
 # Commands
 
-
-
 see volumes: `docker volume ls`
 create a volume: `docker volume create my-vol`
 inspect a volume: `docker volume inspect my-vol`
@@ -32,6 +30,13 @@ docker service create -d \
 **if you use the local volume driver**
 
 *When mounting to a service, must use -mount, not -v*
+
+
+# Understanding how an image was built
+To understand how a docker image was built, use:
+```
+docker history --no-trunc.
+```
 
 ## WHAT WORKED
 
