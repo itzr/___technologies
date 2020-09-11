@@ -69,6 +69,10 @@ app.get('/', (req, res) => {
     res.send('Hello World, itzr is back from holiday');
 });
 
+app.get('/health', (req, res) => {
+    res.send('Server is healthy.')
+})
+
 /**
  * API examples routes.
  */

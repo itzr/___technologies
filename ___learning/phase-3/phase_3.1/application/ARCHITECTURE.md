@@ -1,0 +1,5 @@
+--> Product Page
+        --> Server (stage 1 - includes the API)
+        --> Client (stage 2)
+--> API (stage 2)
+--> RabbitMQ

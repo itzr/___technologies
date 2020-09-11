@@ -20,9 +20,14 @@
 - TensorFlow (ml; dataflow & differentiable programming)
 
 # API
+## API Styles
 ### Gateway
 - Kong
 ### Proxy
+## API Communication Protocols
+### RPC
+- gRPC 
+### REST
 ### Documentation
 - Swagger
 
@@ -126,7 +131,8 @@ XDebug (php)
 - AirTable
 
 # Resources
-- https://www.katacoda.com/
+- CLOUD NATIVE COMPUTING FOUNDATION: https://www.cncf.io/
+- KATACODA: https://www.katacoda.com/
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
