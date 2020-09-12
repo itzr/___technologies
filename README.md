@@ -28,7 +28,10 @@
 ### RPC
 - gRPC 
 ### REST
-### Documentation
+## Data Interchange Format
+- JSON
+- Protocol Buffers (https://github.com/protocolbuffers/protobuf)
+## Documentation
 - Swagger
 
 # Server Types
