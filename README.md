@@ -27,7 +27,8 @@
 ## API Communication Protocols
 ### RPC
 - gRPC 
-### REST
+### HTTP
+- REST
 ## Data Interchange Format
 - JSON
 - Protocol Buffers (https://github.com/protocolbuffers/protobuf)
@@ -75,10 +76,16 @@
 - Interacting with Ethereum
 
 # Testing
+## Frontend (React)
 - Jest
+## Load Testing
+- Locust (https://locust.io/; replicate millions of users)
+
 
 # Infrastructure as a Service
 - Google Compute Engine (GCE)
+
+
 
 # Tools
 ### Checklists
