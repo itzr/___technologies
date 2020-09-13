@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+// -e DISABLE_PROFILER='true' -e DISABLE_TRACING='true' -e DISABLE_DEBUGGER='true' -e PORT='3456'
+
 if(process.env.DISABLE_PROFILER) {
   console.log("Profiler disabled.")
 }

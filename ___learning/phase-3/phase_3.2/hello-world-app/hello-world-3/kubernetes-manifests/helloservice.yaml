@@ -15,26 +15,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: currencyservice
+  name: helloservice
 spec:
   selector:
     matchLabels:
-      app: currencyservice
+      app: helloservice
   template:
     metadata:
       labels:
-        app: currencyservice
+        app: helloservice
     spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: currencyservice
+        image: helloservice
         ports:
         - name: grpc
-          containerPort: 7000
+          containerPort: 7001
         env:
         - name: PORT
-          value: "7000"
+          value: "7001"
         - name: DISABLE_TRACING
           value: "1"
         - name: DISABLE_PROFILER
@@ -43,10 +43,10 @@ spec:
           value: "1"
         readinessProbe:
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:7000"]
+            command: ["/bin/grpc_health_probe", "-addr=:7001"]
         livenessProbe:
           exec:
-            command: ["/bin/grpc_health_probe", "-addr=:7000"]
+            command: ["/bin/grpc_health_probe", "-addr=:7001"]
         resources:
           requests:
             cpu: 100m
@@ -58,12 +58,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: currencyservice
+  name: helloservice
 spec:
   type: ClusterIP
   selector:
-    app: currencyservice
+    app: helloservice
   ports:
   - name: grpc
-    port: 7000
-    targetPort: 7000
+    port: 7001
+    targetPort: 7001
+

@@ -5,8 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/istio-manifests/operator-init.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/helloservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/worldservice.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb/demo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb/grpc/health/v1/health.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/genproto.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/data/hello.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/genproto.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/proto/demo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/proto/grpc/health/v1/health.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/data/world.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/genproto.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/proto/demo.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/proto/grpc/health/v1/health.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -62,7 +105,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -70,22 +113,25 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/backend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/application" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/application/3-deploy.sh" />
-      <recent name="$PROJECT_DIR$/languages/javascript" />
-      <recent name="$PROJECT_DIR$/languages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2" />
-      <recent name="$PROJECT_DIR$/___learning/phase 3/installation" />
-      <recent name="$PROJECT_DIR$/process-control/monitoring/prometheus/query-log" />
-      <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src/config" />
-      <recent name="$PROJECT_DIR$/container-orchestration-learning/phase 2/node-rabbitMQ/nodejs/backend/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Shell Script.genproto.sh (2)">
+    <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" working-dir="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice">
+      <method v="2" />
+    </configuration>
     <configuration name="2-deploy.sh" type="ShConfigurationType" temporary="true">
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/application/3-deploy.sh" />
@@ -97,8 +143,45 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="genproto.sh (1)" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/genproto.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="genproto.sh (2)" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/genproto.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="genproto.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/genproto.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.genproto.sh (2)" />
+        <item itemvalue="Shell Script.genproto.sh" />
+        <item itemvalue="Shell Script.genproto.sh (1)" />
+        <item itemvalue="Node.js.client.js" />
         <item itemvalue="Shell Script.2-deploy.sh" />
       </list>
     </recent_temporary>
@@ -152,7 +235,9 @@
       <workItem from="1599628605374" duration="12315000" />
       <workItem from="1599718150410" duration="1412000" />
       <workItem from="1599780934702" duration="9784000" />
-      <workItem from="1599804456437" duration="4736000" />
+      <workItem from="1599804456437" duration="6981000" />
+      <workItem from="1599892697595" duration="402000" />
+      <workItem from="1599893130314" duration="16947000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -204,14 +289,32 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1599781641890" />
-    <state x="0" y="61" key="CommitChangelistDialog2" timestamp="1597399288339">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1599960488845">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599960488845" />
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1599714893773">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="307" key="GridCell.Tab.0.bottom" timestamp="1599897802355">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599714893773" />
+    <state width="1398" height="307" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
+    <state width="1398" height="307" key="GridCell.Tab.0.center" timestamp="1599897802355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
+    <state width="1398" height="307" key="GridCell.Tab.0.left" timestamp="1599897802354">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599897802354" />
+    <state width="1398" height="307" key="GridCell.Tab.0.right" timestamp="1599897802355">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
+    <state x="278" y="56" key="SettingsEditor" timestamp="1599967493630">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="278" y="56" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599967493630" />
+    <state x="37" y="33" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599892508604" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -232,24 +335,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598399976786" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599788584572">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599963041135">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1599963041135" />
     <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1599788584572" />
-    <state x="371" y="218" width="932" height="580" key="find.popup" timestamp="1599788084628">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="371" y="200" width="929" height="596" key="find.popup" timestamp="1599962849464">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="371" y="200" width="929" height="596" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599350063202" />
-    <state x="371" y="218" width="932" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1599788084628" />
-    <state x="360" y="207" key="run.anything.popup" timestamp="1598966595114">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="371" y="200" width="929" height="596" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599962849464" />
+    <state x="371" y="218" width="988" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1599892516127" />
+    <state x="360" y="189" key="run.anything.popup" timestamp="1599985415145">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599788095951">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1599985400322">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599350486215" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599788095951" />
+    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985400322" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599979410858" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,6 +363,12 @@
           <url>file://$PROJECT_DIR$/___learning/phase-0/interacting-with-eth-container-from-template/app.js</url>
           <line>88</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/client.js</url>
+          <line>32</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
