@@ -61,7 +61,12 @@ Option 1
 Option 2
 
 `$ pred='process matches ".*(ocker|vpnkit).*" || (process in {"taskgated-helper", "launchservicesd", "kernel"} && eventMessage contains[c] "docker")'`
-`$ /usr/bin/log stream --style syslog --level=debug --color=always --predicate "$pred"`
+i`$ /usr/bin/log stream --style syslog --level=debug --color=always --predicate "$pred"`
+
+-------------------------
+## STOP AND REMOVE CONTAINERS
+
+https://blog.baudson.de/blog/stop-and-remove-all-docker-containers-and-images
 
 ------------------------
 

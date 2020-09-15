@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/docs/batch-jobs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/rabbitmq.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend-client.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/components/HelloWorld.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/styles/HelloWorld.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/webpack.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/What does “2&gt;&amp;1” do in command line?/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/special-parameters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/deployment-2-in-1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/deployment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/expansion-loop.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
@@ -36,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -218,7 +207,8 @@
       <workItem from="1599780934702" duration="9784000" />
       <workItem from="1599804456437" duration="6981000" />
       <workItem from="1599892697595" duration="402000" />
-      <workItem from="1599893130314" duration="21886000" />
+      <workItem from="1599893130314" duration="22079000" />
+      <workItem from="1600146671090" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -275,26 +265,26 @@
     </state>
     <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599960488845" />
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state width="1398" height="307" key="GridCell.Tab.0.bottom" timestamp="1599897802355">
+    <state width="1398" height="307" key="GridCell.Tab.0.bottom" timestamp="1600131393645">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
-    <state width="1398" height="307" key="GridCell.Tab.0.center" timestamp="1599897802355">
+    <state width="1398" height="307" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600131393645" />
+    <state width="1398" height="307" key="GridCell.Tab.0.center" timestamp="1600131393642">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
-    <state width="1398" height="307" key="GridCell.Tab.0.left" timestamp="1599897802354">
+    <state width="1398" height="307" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600131393642" />
+    <state width="1398" height="307" key="GridCell.Tab.0.left" timestamp="1600131393639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599897802354" />
-    <state width="1398" height="307" key="GridCell.Tab.0.right" timestamp="1599897802355">
+    <state width="1398" height="307" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600131393639" />
+    <state width="1398" height="307" key="GridCell.Tab.0.right" timestamp="1600131393643">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599897802355" />
-    <state x="278" y="56" key="SettingsEditor" timestamp="1599967493630">
+    <state width="1398" height="307" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600131393643" />
+    <state x="278" y="56" key="SettingsEditor" timestamp="1600147256060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="278" y="56" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1599967493630" />
+    <state x="278" y="56" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600147256060" />
     <state x="37" y="33" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1599892508604" />
     <state width="602" height="445" key="SwitcherDM" timestamp="1598260639230">
       <screen x="0" y="23" width="1440" height="877" />
@@ -326,15 +316,19 @@
     </state>
     <state x="371" y="200" width="929" height="596" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599962849464" />
     <state x="371" y="218" width="988" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1599892516127" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1600147265241">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147265241" />
     <state x="360" y="189" key="run.anything.popup" timestamp="1599985415145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1599985400322">
+    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1600147267492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985400322" />
+    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147267492" />
     <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599979410858" />
   </component>
   <component name="XDebuggerManager">
@@ -348,7 +342,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/client.js</url>
           <line>32</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

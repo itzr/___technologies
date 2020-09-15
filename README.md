@@ -67,7 +67,10 @@
     
 # Process Control
 ### Logging
-### Debugging
+- Graylog 
+- Logstash 
+- Use text log file and standard grep tool
+### Debugging (testing hooks, log file analyzers, etc)
 ### Monitoring
 - Prometheus
 - Supervisor
