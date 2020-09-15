@@ -1,4 +1,4 @@
-apiVersion: skaffold/v1beta2
+apiVersion: skaffold/v2beta6
 kind: Config
 build:
   artifacts:
@@ -12,6 +12,14 @@ build:
     context: src/worldservice
   - image: frontend
     context: src/frontend
+  - image: frontend-client
+    context: src/frontend-client
+    sync:
+      manual:
+        - src: 'src/components/*'
+          dest: .
+        - src: 'src/styles/*'
+          dest: .
   tagPolicy:
     gitCommit: {}
 deploy:

@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-client
+spec:
+  selector:
+    matchLabels:
+      app: frontend-client
+  template:
+    metadata:
+      labels:
+        app: frontend-client
+    spec:
+      containers:
+        - name: frontend-client
+          image: frontend-client
+          ports:
+            - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-client
+spec:
+  ports:
+    - port: 8080
+  type: LoadBalancer
+  selector:
+    app: frontend-client

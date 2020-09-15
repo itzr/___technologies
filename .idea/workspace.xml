@@ -5,46 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/istio-manifests/operator-init.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/helloservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/worldservice.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/genproto.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/data/hello.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/genproto.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/proto/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/proto/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/data/world.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/genproto.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/proto/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/proto/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/worldservice/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/docs/batch-jobs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/rabbitmq.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend-client.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/components/HelloWorld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/src/styles/HelloWorld.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client/webpack.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests/frontend.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
@@ -105,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -114,18 +95,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/pb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/backend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/application" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/application/3-deploy.sh" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.genproto.sh (2)">
@@ -237,7 +218,7 @@
       <workItem from="1599780934702" duration="9784000" />
       <workItem from="1599804456437" duration="6981000" />
       <workItem from="1599892697595" duration="402000" />
-      <workItem from="1599893130314" duration="16947000" />
+      <workItem from="1599893130314" duration="21886000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
