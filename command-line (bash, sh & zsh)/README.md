@@ -1,3 +1,6 @@
+# AMAZING TOOL
+https://explainshell.com/
+
 # GENERAL
 
 - checking logs

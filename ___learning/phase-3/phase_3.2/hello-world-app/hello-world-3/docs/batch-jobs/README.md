@@ -1,3 +1,10 @@
+# NOTE TO SELF
+
+- Before diving into the weeds, disabling istio seems to work for now.
+- see installation/cronjobs/cronjob-istio-disabled.yaml
+
+# ISSUES And FIXES
+
 ### Issue: Setting up CronJobs with Istio:
 - https://stackoverflow.com/questions/54921054/terminate-istio-sidecar-istio-proxy-for-a-kubernetes-job-cronjob
 - https://github.com/istio/istio/issues/6324

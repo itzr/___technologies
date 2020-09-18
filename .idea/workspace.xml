@@ -5,19 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs/cronjob-istio-disabled-2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs/cronjob-istio-disabled.yaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/containers/kubernetes/docs/granular/ENTER_A_POD.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/docs/batch-jobs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/docs/batch-jobs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob-dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjob.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs/cronjob-jobs-do-not-terminate.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/docs/granular/CRONJOBS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/kubernetes/docs/granular/CRONJOBS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -76,19 +84,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/helloservice" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend-client" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/backend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/src/frontend" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/kubernetes-manifests" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.install.sh">
@@ -203,7 +211,7 @@
       <workItem from="1599893130314" duration="22079000" />
       <workItem from="1600146671090" duration="7958000" />
       <workItem from="1600243473477" duration="56000" />
-      <workItem from="1600396662674" duration="2109000" />
+      <workItem from="1600396662674" duration="11248000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -320,11 +328,11 @@
     </state>
     <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600398318407">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600413963030">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147267492" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600398318407" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600413963030" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
