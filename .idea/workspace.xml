@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/install.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/php/BASIC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/php/QUICK_DEVELOPMENT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
@@ -92,19 +91,8 @@
       <recent name="$PROJECT_DIR$/___learning/phase-3/application" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.genproto.sh (2)">
+  <component name="RunManager" selected="Shell Script.install.sh">
     <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" working-dir="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice">
-      <method v="2" />
-    </configuration>
-    <configuration name="2-deploy.sh" type="ShConfigurationType" temporary="true">
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/application/3-deploy.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/___learning/phase-3/application" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/zsh" />
-      <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
     <configuration name="genproto.sh (1)" type="ShConfigurationType" temporary="true">
@@ -140,13 +128,24 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="install.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/install.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.install.sh" />
         <item itemvalue="Shell Script.genproto.sh (2)" />
         <item itemvalue="Shell Script.genproto.sh" />
         <item itemvalue="Shell Script.genproto.sh (1)" />
         <item itemvalue="Node.js.client.js" />
-        <item itemvalue="Shell Script.2-deploy.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +203,7 @@
       <workItem from="1599893130314" duration="22079000" />
       <workItem from="1600146671090" duration="7958000" />
       <workItem from="1600243473477" duration="56000" />
+      <workItem from="1600396662674" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -320,11 +320,11 @@
     </state>
     <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1598966595114" />
-    <state x="384" y="195" width="670" height="694" key="search.everywhere.popup" timestamp="1600147267492">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600398318407">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147267492" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1599979410858" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600398318407" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

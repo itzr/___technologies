@@ -1,12 +1,9 @@
-**reminder: `kubectl port-forward`**
-
-**reminder: `kubectl port-forward service/grafana 3000:3000 -n istio-system`**
-
-**game changer: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md**
-
-**dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
-
-**what tools do sysadmin use??**
+- **urgent: focus on grep**
+- **reminder: `kubectl port-forward`** 
+- **example: `kubectl port-forward service/grafana 3000:3000 -n istio-system`**
+- **game changer: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md**
+- **dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
+- **what tools do sysadmin use??**
 
 # Learn by doing repo
 # Frameworks
