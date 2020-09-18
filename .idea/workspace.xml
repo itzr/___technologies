@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/What does “2&gt;&amp;1” do in command line?/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/special-parameters/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/deployment-2-in-1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/deployment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/scripts/expansion-loop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/php/BASIC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/php/QUICK_DEVELOPMENT.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
@@ -24,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker/docs/COMMANDS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +202,8 @@
       <workItem from="1599804456437" duration="6981000" />
       <workItem from="1599892697595" duration="402000" />
       <workItem from="1599893130314" duration="22079000" />
-      <workItem from="1600146671090" duration="6163000" />
+      <workItem from="1600146671090" duration="7958000" />
+      <workItem from="1600243473477" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
