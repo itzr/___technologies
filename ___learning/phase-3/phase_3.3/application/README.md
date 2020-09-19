@@ -9,7 +9,7 @@ Details below
         > -|- > -
         |         |
         ^         v   
-   { MongoDB }   Message Broker
+   { MongoDB }  { Message Broker }
        |           | 
        ^           v
        | <- - - - Blockchain Query Service  
@@ -23,8 +23,8 @@ Details below
 - Stores raw results 
 ### MongoDB
 - In the cloud!
-### Message Broker
-- Handles queries to the Blockchain Query Service
+### Message Broker (phase 2; might not be necessary.)
+- Handle queries to the Blockchain Query Service
 ### Backend
 - Endpoint 1: Triggers the search for new proposals (Blockchain Query Service)
 - Endpoint 2: Fetches proposals from the DB and serves it to the frontend.  

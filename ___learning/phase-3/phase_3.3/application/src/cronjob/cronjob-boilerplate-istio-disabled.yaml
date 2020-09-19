@@ -1,0 +1,30 @@
+# To see the output
+# kubectl get cronjob <name>
+# kubectl logs $pods <name>
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: cronjob-istio-disabled-2-b
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          annotations:
+            # disable istio on the pod due to this issue:
+            # https://github.com/istio/istio/issues/11659
+            sidecar.istio.io/inject: "false"
+        spec:
+          containers:
+            - name: hello-dev
+              image: curlimages/curl
+              # command is not executed within a shell. hence: 'sh'
+              command: [
+                  'sh',
+                  '-c',
+              ]
+              # args executed within the context of the cluster
+              args: ["output=$(curl http://frontend:77); echo $output; sleep 3600"]
+
+          restartPolicy: OnFailure
