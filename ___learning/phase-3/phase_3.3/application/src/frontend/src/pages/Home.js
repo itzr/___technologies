@@ -4,6 +4,8 @@ import {
     Link
 } from "react-router-dom";
 
+import API from './../components/API'
+
 import basicData from "./../mockData/researchDescription.js"
 
 const Home = () => {
@@ -15,7 +17,8 @@ const Home = () => {
                     </section>
                     <section className={"topic"}>
                         <h2 id={"api"}><a href={"#api"}>#</a>API</h2>
-                        <p>Coming Soon.</p>
+                        <p>Coming Now.</p>
+                        <API />
                     </section>
                     <section className={"topic"}>
                         <h2 id={"research"}><a href={"#research"}>#</a>Research</h2>

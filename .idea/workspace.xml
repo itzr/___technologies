@@ -6,74 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/installation/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/installation/rabbitmq.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/operator-init.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/backend.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/blockchain-query-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/frontend.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/pb/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/pb/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/schema/Proposal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/skaffold.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/genmodels.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/genproto.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/models/Proposal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/proto/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/proto/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/data/hello.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/genproto.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/proto/demo.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/proto/grpc/health/v1/health.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/blockchain-query-service/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/cronjob/cronjob-boilerplate-istio-disabled.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/components/Article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/layout/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/mockData/description.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/mockData/researchDescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/pages/Research.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/styles/bugFixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/styles/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/styles/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/styles/overwrites.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/views/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/views/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/components/API.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/overview/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -272,7 +214,7 @@
       <workItem from="1599893130314" duration="22079000" />
       <workItem from="1600146671090" duration="7958000" />
       <workItem from="1600243473477" duration="56000" />
-      <workItem from="1600396662674" duration="24484000" />
+      <workItem from="1600396662674" duration="26587000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -329,22 +271,26 @@
     </state>
     <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599960488845" />
     <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
-    <state width="1398" height="307" key="GridCell.Tab.0.bottom" timestamp="1600131393645">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1600502706094">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="307" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600131393645" />
-    <state width="1398" height="307" key="GridCell.Tab.0.center" timestamp="1600131393642">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1600502706094" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1600502706093">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="307" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600131393642" />
-    <state width="1398" height="307" key="GridCell.Tab.0.left" timestamp="1600131393639">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1600502706093" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1600502706092">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="307" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600131393639" />
-    <state width="1398" height="307" key="GridCell.Tab.0.right" timestamp="1600131393643">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1600502706092" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1600502706093">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="307" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600131393643" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1600502706093" />
     <state x="278" y="56" key="SettingsEditor" timestamp="1600147256060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
