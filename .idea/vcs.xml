@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/___learning/phase 0/demo/node-bulletin-board" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/___learning/phase-0/demo/node-bulletin-board" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api/gateway (service mesh)/istio/source-code" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/demo/node-bulletin-board" vcs="Git" />

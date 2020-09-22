@@ -19,36 +19,20 @@ spec:
         - name: server
           image: backend
           ports:
-          - containerPort: 7777
+          - containerPort: 1234
           readinessProbe:
             initialDelaySeconds: 10
             httpGet:
               path: "/_healthz"
-              port: 7777
-#              httpHeaders:
-#              - name: "Cookie"
-#                value: "shop_session-id=x-readiness-probe"
+              port: 1234
           livenessProbe:
             initialDelaySeconds: 10
             httpGet:
               path: "/_healthz"
-              port: 7777
-#              httpHeaders:
-#              - name: "Cookie"
-#                value: "shop_session-id=x-liveness-probe"
+              port: 1234
           env:
             - name: PORT
-              value: "7777"
-            - name: MONGODB_URI
-              valueFrom:
-                secretKeyRef:
-                  name: mongo-db-secrets
-                  key: mongo-uri
-            - name: INFURA_PROJECT_ID
-              valueFrom:
-                secretKeyRef:
-                  name: infura-secrets
-                  key: infura-id
+              value: "1234"
           resources:
             requests:
               cpu: 100m
@@ -70,21 +54,7 @@ spec:
     app: backend
   ports:
   - name: http
-    port: 77
-    targetPort: 7777
-#  - port: 80
-#    name: http-two
+    port: 1234
+    targetPort: 1234
 ---
-# FOR DEVELOPMENT!
-#apiVersion: v1
-#kind: Service
-#metadata:
-#  name: backend-external
-#spec:
-#  type: LoadBalancer
-#  selector:
-#    app: backend
-#  ports:
-#  - name: http
-#    port: 78
-#    targetPort: 7777
+

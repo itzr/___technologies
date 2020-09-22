@@ -1,0 +1,2 @@
+- network connectivity issues in /application
+- expose everything on port 1234

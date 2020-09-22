@@ -1,0 +1,15 @@
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: backend
+#spec:
+#  hosts:
+#    #  <service-name>.<namespace>.svc.cluster.local
+#    - "backend"
+#  http:
+#    - route:
+#        - destination:
+##       Error [IST0101] (VirtualService backend.application) Referenced host not found "backend"
+#            host: backend
+#            port:
+#              number: 77

@@ -5,6 +5,10 @@
 - **dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
 - **what tools do sysadmin use??**
 
+*Investigate*
+- service discovery mechanisms
+- service registries 
+
 # Learn by doing repo
 # Frameworks
 - GIS (Geographic Information System)

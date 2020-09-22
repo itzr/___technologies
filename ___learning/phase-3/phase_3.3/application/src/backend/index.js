@@ -12,6 +12,7 @@ const pino = require('pino');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 /**
  * Local dependencies.
@@ -80,6 +81,12 @@ const app = express();
  */
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+/**
+ * Apply Middleware (TEMPORARY?)
+ * https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+ */
+app.use(cors());
 
 /**
  * Primary app routes.
