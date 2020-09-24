@@ -1,3 +1,5 @@
+Fantastic Article: https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e
+
 # Summary
 - An API object that manages external access to the services in a cluster
 - Typically, HTTP
@@ -25,3 +27,8 @@
     - *note* exposing services other than HTTP & HTTPS to the internet typically uses:
         - Service.Type=NodePort
         - Service.Type=LoadBalancer
+
+----------
+ Ingress gives you a way to route requests to services 
+ based on the request host or path, centralizing a number 
+ of services into a single entrypoint.

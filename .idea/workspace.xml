@@ -6,151 +6,164 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/backend.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-gateway.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/skaffold.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management/OVERVIEW.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management/VIRTUAL_SERVICES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/destination-rules.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/istio-manifests/frontend-gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/istio-manifests/operator-init.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/backend.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-gateway.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/istio-manifests/frontend.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/backend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/backend.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/kubernetes-manifests/frontend.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/components/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/components/API.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/INSTALLATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/INSTALLATION.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/ISSUES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/authentication-provisioning-consumers-and-credentials/1-kong-secret.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/1-kong-secret.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/authentication-provisioning-consumers-and-credentials/2-kong-consumer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/2-kong-consumer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/authentication-provisioning-consumers-and-credentials/3-use-credential.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/3-use-credential.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/configure-a-plugin-for-a-specific-consumer/1-configure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/1-configure.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/configure-a-plugin-for-a-specific-consumer/2-associate.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/2-associate.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/configure-a-plugin-for-a-specific-consumer/3-validate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/3-validate.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/control-proxy-behaviour/ingress-resource/control-proxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/control-proxy-behaviour/ingress-resource/control-proxy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/control-proxy-behaviour/service-resource/control-proxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/control-proxy-behaviour/service-resource/control-proxy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/global-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/global-plugin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/global-plugin/global-plugin-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/global-plugin/global-plugin-1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/kong-with-node-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/kong-with-node-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/use-plugin-as-a-resource---declarative/authentication/ingress-rules-4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/authentication/ingress-rules-4.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-1.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-3.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/.helmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/FAQs.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/FAQs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/UPGRADE.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/UPGRADE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/.helmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/Chart.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/ci/default-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/ci/default-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/ci/shmvolume-disabled-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/ci/shmvolume-disabled-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/files/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/files/conf.d/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/conf.d/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/files/docker-entrypoint-initdb.d/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/docker-entrypoint-initdb.d/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/NOTES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/_helpers.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/configmap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/extended-config-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/extended-config-configmap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/initialization-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/initialization-configmap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/metrics-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/metrics-configmap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/metrics-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/metrics-svc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/networkpolicy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/networkpolicy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/prometheusrule.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/prometheusrule.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/secrets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/secrets.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/serviceaccount.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/servicemonitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/servicemonitor.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/statefulset-slaves.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/statefulset-slaves.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/statefulset.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/svc-headless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc-headless.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/svc-read.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc-read.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/templates/svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/values-production.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values-production.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/values.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values.schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/charts/postgresql/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/default-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/default-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/single-image-default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/single-image-default.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/test1-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test1-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/test2-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test2-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/test3-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test3-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/ci/test4-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test4-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/crds/custom-resource-definitions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/crds/custom-resource-definitions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/full-k4k8s-with-kong-enterprise.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/full-k4k8s-with-kong-enterprise.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-k4k8s-with-kong-enterprise.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-k4k8s-with-kong-enterprise.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-kong-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-controller.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-kong-enterprise-dbless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-enterprise-dbless.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-kong-hybrid-control.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-hybrid-control.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-kong-hybrid-data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-hybrid-data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/example-values/minimal-kong-standalone.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-standalone.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/requirements.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/requirements.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/requirements.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/NOTES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/_helpers.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/admission-webhook.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/admission-webhook.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/config-custom-server-blocks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/config-custom-server-blocks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/config-dbless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/config-dbless.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/controller-rbac-resources.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/controller-rbac-resources.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/controller-service-account.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/controller-service-account.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/custom-resource-definitions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/custom-resource-definitions.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/hpa.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/ingress-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-admin.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/ingress-manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-manager.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/ingress-portal-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-portal-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/ingress-portal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-portal.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/ingress-proxy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-proxy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/migrations-post-upgrade.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations-post-upgrade.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/migrations-pre-upgrade.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations-pre-upgrade.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/pdb.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/pdb.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/psp.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/psp.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-admin.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-cluster-telemetry.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-cluster-telemetry.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-cluster.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-cluster.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-manager.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-portal-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-portal-api.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-portal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-portal.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/service-kong-proxy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-proxy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/servicemonitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/servicemonitor.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/templates/wait-for-postgres-script.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/wait-for-postgres-script.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/kong/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/utilities/connect.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/connect.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/utilities/install-kong.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/install-kong.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/gateway/kong/utilities/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests/backend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests/backend.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests/frontend.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests/frontend.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/src/components/API.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/src/components/API.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/1-basic-operator-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/1-basic-operator-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/1_INSTALLATION.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/1_INSTALLATION.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/2_CONFIG.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/2_CONFIG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/clean-up/clean-up.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/clean-up/clean-up.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/networking/cluster-networking-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/networking/cluster-networking-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/networking/destination-rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/networking/destination-rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/cluster-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/platform/cluster-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/server-example-only.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/platform/server-example-only.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/verify.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/basic/book-app/platform/verify.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management/OVERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/docs/traffic-management/OVERVIEW.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management/VIRTUAL_SERVICES.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/docs/traffic-management/VIRTUAL_SERVICES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/ingress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/ingress.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/kong-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/kong-plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/kubernetes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/kubernetes.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/observability/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/observability/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/observability/visualisation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/observability/visualisation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/istio/virtual-machine-integration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/virtual-machine-integration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/INSTALLATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/INSTALLATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/ISSUES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/1-kong-secret.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/authentication-provisioning-consumers-and-credentials/1-kong-secret.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/2-kong-consumer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/authentication-provisioning-consumers-and-credentials/2-kong-consumer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/authentication-provisioning-consumers-and-credentials/3-use-credential.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/authentication-provisioning-consumers-and-credentials/3-use-credential.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/1-configure.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/configure-a-plugin-for-a-specific-consumer/1-configure.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/2-associate.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/configure-a-plugin-for-a-specific-consumer/2-associate.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/configure-a-plugin-for-a-specific-consumer/3-validate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/configure-a-plugin-for-a-specific-consumer/3-validate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/control-proxy-behaviour/ingress-resource/control-proxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/control-proxy-behaviour/ingress-resource/control-proxy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/control-proxy-behaviour/service-resource/control-proxy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/control-proxy-behaviour/service-resource/control-proxy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/global-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/global-plugin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/global-plugin/global-plugin-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/global-plugin/global-plugin-1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/kong-with-node-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/kong-with-node-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/authentication/ingress-rules-4.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/use-plugin-as-a-resource---declarative/authentication/ingress-rules-4.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/guides/use-plugin-as-a-resource---declarative/ingress-rules-3.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/FAQs.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/FAQs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/UPGRADE.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/UPGRADE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/.helmignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/.helmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/ci/default-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/ci/default-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/ci/shmvolume-disabled-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/ci/shmvolume-disabled-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/files/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/conf.d/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/files/conf.d/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/files/docker-entrypoint-initdb.d/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/files/docker-entrypoint-initdb.d/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/extended-config-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/extended-config-configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/initialization-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/initialization-configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/metrics-configmap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/metrics-configmap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/metrics-svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/metrics-svc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/networkpolicy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/networkpolicy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/prometheusrule.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/prometheusrule.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/secrets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/secrets.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/serviceaccount.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/serviceaccount.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/servicemonitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/servicemonitor.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/statefulset-slaves.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/statefulset-slaves.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/statefulset.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc-headless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/svc-headless.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc-read.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/svc-read.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/templates/svc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/templates/svc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values-production.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/values-production.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values.schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/values.schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/charts/postgresql/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/charts/postgresql/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/default-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/default-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/single-image-default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/single-image-default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test1-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/test1-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test2-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/test2-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test3-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/test3-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/ci/test4-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/ci/test4-values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/crds/custom-resource-definitions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/crds/custom-resource-definitions.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/full-k4k8s-with-kong-enterprise.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/full-k4k8s-with-kong-enterprise.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-k4k8s-with-kong-enterprise.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-k4k8s-with-kong-enterprise.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-kong-controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-enterprise-dbless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-kong-enterprise-dbless.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-hybrid-control.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-kong-hybrid-control.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-hybrid-data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-kong-hybrid-data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/example-values/minimal-kong-standalone.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/example-values/minimal-kong-standalone.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/requirements.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/requirements.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/requirements.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/requirements.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/NOTES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/NOTES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/_helpers.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/_helpers.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/admission-webhook.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/admission-webhook.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/config-custom-server-blocks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/config-custom-server-blocks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/config-dbless.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/config-dbless.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/controller-rbac-resources.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/controller-rbac-resources.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/controller-service-account.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/controller-service-account.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/custom-resource-definitions.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/custom-resource-definitions.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/hpa.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/hpa.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/ingress-admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/ingress-manager.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-portal-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/ingress-portal-api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-portal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/ingress-portal.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/ingress-proxy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/ingress-proxy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations-post-upgrade.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/migrations-post-upgrade.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations-pre-upgrade.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/migrations-pre-upgrade.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/pdb.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/pdb.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/psp.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/psp.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-cluster-telemetry.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-cluster-telemetry.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-cluster.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-cluster.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-manager.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-manager.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-portal-api.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-portal-api.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-portal.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-portal.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/service-kong-proxy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/service-kong-proxy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/servicemonitor.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/servicemonitor.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/templates/wait-for-postgres-script.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/templates/wait-for-postgres-script.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/kong/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/kong/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/connect.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/utilities/connect.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/install-kong.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/utilities/install-kong.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/gateway (service mesh)/kong/utilities/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/kong/utilities/logs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/1-basic-operator-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/1-basic-operator-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/1_INSTALLATION.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/1_INSTALLATION.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/2_CONFIG.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/2_CONFIG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/clean-up/clean-up.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/clean-up/clean-up.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/networking/cluster-networking-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/networking/cluster-networking-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/networking/destination-rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/networking/destination-rules.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/platform/cluster-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/cluster-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/platform/server-example-only.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/server-example-only.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/basic/book-app/platform/verify.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/basic/book-app/platform/verify.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/ingress.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/ingress.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/kong-plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/kong-plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/kubernetes.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/kubernetes.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/observability/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/observability/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/observability/visualisation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/observability/visualisation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-mesh/istio/virtual-machine-integration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/gateway (service mesh)/istio/virtual-machine-integration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/containers/kubernetes/docs/concepts/services, load balancing &amp; networking/INGRESS.md" beforeDir="false" afterPath="$PROJECT_DIR$/containers/kubernetes/docs/concepts/services, load balancing &amp; networking/INGRESS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +198,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+            <option name="selectedSavedDocumentIndex" value="0" />
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
     <option name="namespace" value="default" />
@@ -201,7 +232,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -209,19 +240,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/inspiration" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/backend" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.2/hello-world-app/hello-world-3/installation/cronjobs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/react-reload" />
       <recent name="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management" />
       <recent name="$PROJECT_DIR$/api/gateway (service mesh)" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/istio-manifests" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/inspiration" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.API.js">
@@ -338,7 +369,13 @@
       <workItem from="1600243473477" duration="56000" />
       <workItem from="1600396662674" duration="29902000" />
       <workItem from="1600509750653" duration="18707000" />
-      <workItem from="1600757935104" duration="1030000" />
+      <workItem from="1600757935104" duration="2054000" />
+      <workItem from="1600766938802" duration="3390000" />
+      <workItem from="1600791370372" duration="11366000" />
+      <workItem from="1600912192004" duration="370000" />
+      <workItem from="1600912589283" duration="4041000" />
+      <workItem from="1600918311435" duration="415000" />
+      <workItem from="1600919222858" duration="3780000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -440,16 +477,16 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1598399976786" />
-    <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599963041135">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600915859364">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="503" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1599963041135" />
-    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1599788584572" />
-    <state x="371" y="218" width="988" height="580" key="find.popup" timestamp="1600669463125">
+    <state x="503" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1600915859364" />
+    <state x="371" y="218" width="988" height="580" key="find.popup" timestamp="1600915060020">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="371" y="200" width="929" height="596" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1599962849464" />
-    <state x="371" y="218" width="988" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600669463125" />
+    <state x="371" y="218" width="988" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1600915060020" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1600147265241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -459,11 +496,11 @@
     </state>
     <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600485235795" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600672134140">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600922641193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147267492" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600672134140" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600922641193" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

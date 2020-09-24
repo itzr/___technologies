@@ -40,37 +40,22 @@ const API = () => {
         })
     }, [])
 
+    // For this use INGRESS.
     // useEffect(() => {
-    //     [ONE, TWO, THREE, FOUR].forEach(url => {
-    //         Axios.get(url).then((res) => {
+    //     // [ONE_1, TWO_1, THREE_1, FOUR_1].forEach(url => {
+    //         [ONE_1].forEach(url => {
+    //         // console.log("RESULTS FOR: ", url)
+    //         Axios.get('', {url: url}).then((res) => {
     //             const response = res.data;
     //             if (response) {
-    //                 console.log('INTERNAL SUCCESS')
-    //                 console.log(response)
+    //                 console.log(url, response)
     //                 setInternalResponse(response)
     //             }
     //         }).catch((e) => {
-    //             console.log("INTERNAL ERROR");
     //             console.log(e);
     //         });
     //     })
     // }, [])
-
-    useEffect(() => {
-        // [ONE_1, TWO_1, THREE_1, FOUR_1].forEach(url => {
-            [ONE_1].forEach(url => {
-            // console.log("RESULTS FOR: ", url)
-            Axios.get('', {url: url}).then((res) => {
-                const response = res.data;
-                if (response) {
-                    console.log(url, response)
-                    setInternalResponse(response)
-                }
-            }).catch((e) => {
-                console.log(e);
-            });
-        })
-    }, [])
 
 
     return (
@@ -85,7 +70,6 @@ const API = () => {
             {/*<section className={"topic"}>*/}
             {/*    <h2 id={"api"}><a href={"#api"}>#</a>API</h2>*/}
             {/*    <p>Coming Now.</p>*/}
-            {/*    <API />*/}
             {/*</section>*/}
         </React.Fragment>
         )

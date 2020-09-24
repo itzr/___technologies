@@ -49,7 +49,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
  * Apply Middleware
  * https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
  */
-app.use(cors());
+
+const corsOptions = {
+    // origin: process.env.CLIENT,
+    // credentials: true
+}
+
+app.use(cors(corsOptions))
+
 
 /**
  * Primary app routes.

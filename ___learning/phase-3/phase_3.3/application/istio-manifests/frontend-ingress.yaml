@@ -1,0 +1,30 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: istio-ingress
+spec:
+  gateways:
+    - application/frontend-gateway
+  hosts:
+    - "*"
+  http:
+    - match:
+        - uri:
+            prefix: /api
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: backend.application.svc.cluster.local
+            port:
+              number: 78
+          weight: 100
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: frontend.application.svc.cluster.local
+            port:
+              number: 8080
+          weight: 100

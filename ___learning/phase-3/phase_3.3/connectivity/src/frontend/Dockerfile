@@ -1,7 +1,7 @@
 FROM node:12.16.0-alpine3.10
 
 WORKDIR /app
-EXPOSE 1234
+EXPOSE 8080
 CMD ["npm", "run", "dev"]
 
 COPY package* ./

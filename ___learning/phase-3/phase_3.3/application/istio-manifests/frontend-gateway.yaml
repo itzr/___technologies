@@ -2,32 +2,17 @@ apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
   name: frontend-gateway
+  namespace: application
 spec:
   selector:
     istio: ingressgateway # use Istio default gateway implementation
   servers:
+# Using a different PORT. Istio fails and says it's not exposed by the current workload.
   - port:
       number: 80
       name: http
       protocol: HTTP
     hosts:
     - "*"
----
-apiVersion: networking.istio.io/v1alpha3
-kind: VirtualService
-metadata:
-  name: frontend-ingress
-spec:
-  hosts:
-  - "*"
-  gateways:
-  - frontend-gateway
-  http:
-#  - match:
-#      - uri:
-#          exact: /backend
-  - route:
-    - destination:
-        host: frontend
-        port:
-          number: 8080
+
+

@@ -1,0 +1,22 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+build:
+  artifacts:
+    - image: frontend
+      context: src/frontend
+    - image: backend
+      context: src/backend
+      sync:
+        manual:
+          - src: 'src/components/*'
+            dest: .
+          - src: 'src/styles/*'
+            dest: .
+  tagPolicy:
+    gitCommit: {}
+deploy:
+  kubectl:
+    manifests:
+      - ./kubernetes-manifests/backend.yaml
+      - ./kubernetes-manifests/frontend.yaml
+#    - ./kubernetes-manifests/**.yaml

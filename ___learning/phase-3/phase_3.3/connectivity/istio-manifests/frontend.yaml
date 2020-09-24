@@ -4,11 +4,10 @@ metadata:
   name: frontend
 spec:
   hosts:
-  #  <service-name>.<namespace>.svc.cluster.local
   - "frontend"
   http:
   - route:
     - destination:
         host: frontend
         port:
-          number: 8080
+          number: 1234

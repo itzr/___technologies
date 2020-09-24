@@ -57,34 +57,32 @@ spec:
               cpu: 200m
               memory: 128Mi
 ---
-apiVersion: v1
-kind: Service
-metadata:
-  name: backend
-  labels:
-    app: backend
-    service: backend
-spec:
-  type: ClusterIP
-  selector:
-    app: backend
-  ports:
-  - name: http
-    port: 77
-    targetPort: 7777
-#  - port: 80
-#    name: http-two
----
-# FOR DEVELOPMENT!
 #apiVersion: v1
 #kind: Service
 #metadata:
-#  name: backend-external
+#  name: backend
+#  labels:
+#    app: backend
+#    service: backend
 #spec:
-#  type: LoadBalancer
+#  type: ClusterIP
 #  selector:
 #    app: backend
 #  ports:
 #  - name: http
-#    port: 78
+#    port: 77
 #    targetPort: 7777
+#---
+# FOR DEVELOPMENT!
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  type: LoadBalancer
+  selector:
+    app: backend
+  ports:
+  - name: http
+    port: 78
+    targetPort: 7777
