@@ -6,22 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/security/dns-certification.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/destination-rules.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/traffic-management/destination-rules.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-gateway.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/traffic-management/frontend-gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/frontend-ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/traffic-management/frontend-ingress.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/operator-init.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/operator-init.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checklists/EPIC.md" beforeDir="false" afterPath="$PROJECT_DIR$/checklists/EPIC.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -240,7 +235,7 @@
       <workItem from="1600912589283" duration="4041000" />
       <workItem from="1600918311435" duration="415000" />
       <workItem from="1600919222858" duration="4181000" />
-      <workItem from="1601021439195" duration="620000" />
+      <workItem from="1601021439195" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
