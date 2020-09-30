@@ -9,5 +9,8 @@
 - Success metrics?
 # Process
 - Are we using JIRA?
+-> todo -> in prog -> peer test -> peer code review -> qa test -> passed testing -> done ... then deploy
 - Who is code reviewing? Who is testing?
 - What's the strategy for merging to master / tracking ids in branchs and commiting? 
+# Activity Diagrams
+*An activity diagram consists of a set of actions drawn as rounded boxes 

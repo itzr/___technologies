@@ -1,3 +1,8 @@
+### Concurrency
+When the execution of two or more pieces of code act as if they run at the same time
+### Parallelism
+When they do run at the same time
+
 ### ACL (Access Control List)
 
 An ACL is a list of user permissions for 
