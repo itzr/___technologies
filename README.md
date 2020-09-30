@@ -1,7 +1,4 @@
-- **urgent: focus on grep**
-- **reminder: `kubectl port-forward`** 
-- **example: `kubectl port-forward service/grafana 3000:3000 -n istio-system`**
-- **game changer: https://github.com/Kong/kubernetes-ingress-controller/blob/main/docs/guides/getting-started-istio.md**
+ - **reminder/example: `kubectl port-forward service/grafana 3000:3000 -n istio-system`**
 - **dev-ops software inspiration: https://github.com/itzr/developer-roadmap**
 - **what tools do sysadmin use??**
 
@@ -65,7 +62,6 @@
 ### Automation Server for Continuous Integration
 - Jenkis (https://www.edureka.co/blog/what-is-jenkins/)
 
-    
 # Process Control
 ### Logging
 - Graylog 
@@ -75,6 +71,7 @@
 ### Monitoring
 - Prometheus
 - Supervisor
+- ELK Stack + Beats (ElasticSearch x LogStash x Kibana x Beats)
 
 # Blockchain
 - Interacting with Ethereum
@@ -85,11 +82,8 @@
 ## Load Testing
 - Locust (https://locust.io/; replicate millions of users)
 
-
 # Infrastructure as a Service
 - Google Compute Engine (GCE)
-
-
 
 # Tools
 ### Checklists
@@ -113,9 +107,7 @@ gsutil
 - MySQL (SQL)
 
 # Command Line
-### Bash
-### Sh
-### Zsh
+### Bash / Sh / Zsh
 ### General
 - Scripting
 - 'Starter-Scripts'
@@ -144,13 +136,29 @@ XDebug (php)
 - Zapier
 - AirTable
 
+# Interesting (from State of the Octoverse 2019)
+### IOT
+- Open Source Home Automation (https://github.com/home-assistant/core)
+### Deployment
+- Automate Deployments (Ansible; https://github.com/ansible/ansible)
+### Frontend Compiler
+- Build React Apps (Gatsby; https://github.com/gatsbyjs/gatsby)
+### Machine Learning
+- ML Education (https://github.com/madewithml/basics)
+- ML Platform (https://github.com/tensorflow/tensorflow)
+- Natural Language Toolkit (https://github.com/nltk/nltk)
+    - **GPT-3**
+### Source Code Control
+- Git History (https://github.com/pomber/git-history)
+### Interactive Notebook
+- Notebook (https://github.com/jupyter/notebook)
+
 # Resources
 - CLOUD NATIVE COMPUTING FOUNDATION: https://www.cncf.io/
 - KATACODA: https://www.katacoda.com/
 
 ## Learning Opportunity Tasks
 1. (current) Create a docker container with stack neccessary for querying the Ethereum blockchain
-2. See DV PR’s with API for Keyword Module (PHP / Symfony)
-3. Write an alias for the docker command to enter a container (bash)
+2. Write an alias for the docker command to enter a container (bash)
     -. https://askubuntu.com/questions/626458/can-i-pass-arguments-to-an-alias-command
 
