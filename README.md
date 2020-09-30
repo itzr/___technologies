@@ -72,6 +72,7 @@
 - Prometheus
 - Supervisor
 - ELK Stack + Beats (ElasticSearch x LogStash x Kibana x Beats)
+    - https://logz.io/blog/beats-tutorial/
 
 # Blockchain
 - Interacting with Ethereum
@@ -111,6 +112,9 @@ gsutil
 ### General
 - Scripting
 - 'Starter-Scripts'
+- Using Variables, Parameters and Functions
+- Ohmyzsh
+- Zsh functions with arguments
 
 # Network Science
 - Network Ports
