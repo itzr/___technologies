@@ -8,7 +8,9 @@
 
 # Learn by doing repo
 # Frameworks
+- Serverless (www.serverless.com)
 - GIS (Geographic Information System)
+
 
 # Languages
 - GraphQL API (querying)
@@ -31,7 +33,9 @@
 - JSON
 - Protocol Buffers (https://github.com/protocolbuffers/protobuf)
 ## Documentation
+**with AWS Gateway API, AWS creates an endpoint from a given definition**
 - Swagger
+- OpenAPI 3
 
 # Server Types
 ### Reverse Proxy
@@ -63,25 +67,33 @@
 - Jenkis (https://www.edureka.co/blog/what-is-jenkins/)
 
 # Process Control
+## Testing
+#### Frontend (React)
+- Jest
+#### Load Testing
+- Locust (https://locust.io/; replicate millions of users)
+## Observability
+### Debugging (testing hooks, log file analyzers, etc)
+#### Distributed Tracing
+- Zipkin
+- Jaeger
+- Lightstep
+- Datadog.
 ### Logging
+- Istio Telemetry
 - Graylog 
 - Logstash 
 - Use text log file and standard grep tool
-### Debugging (testing hooks, log file analyzers, etc)
 ### Monitoring
 - Prometheus
 - Supervisor
 - ELK Stack + Beats (ElasticSearch x LogStash x Kibana x Beats)
     - https://logz.io/blog/beats-tutorial/
+- Istio Telemetry
+
 
 # Blockchain
 - Interacting with Ethereum
-
-# Testing
-## Frontend (React)
-- Jest
-## Load Testing
-- Locust (https://locust.io/; replicate millions of users)
 
 # Infrastructure as a Service
 - Google Compute Engine (GCE)
@@ -115,6 +127,8 @@ gsutil
 - Using Variables, Parameters and Functions
 - Ohmyzsh
 - Zsh functions with arguments
+### Multiple Terminal Sessions
+- tmux (https://en.wikipedia.org/wiki/Tmux)
 
 # Network Science
 - Network Ports

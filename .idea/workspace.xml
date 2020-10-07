@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command-line (bash, sh &amp; zsh)/guides/zsh functions with arguments/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
@@ -18,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checklists/EPIC.md" beforeDir="false" afterPath="$PROJECT_DIR$/checklists/EPIC.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -236,7 +236,9 @@
       <workItem from="1600912589283" duration="4041000" />
       <workItem from="1600918311435" duration="415000" />
       <workItem from="1600919222858" duration="4181000" />
-      <workItem from="1601021439195" duration="3719000" />
+      <workItem from="1601021439195" duration="5372000" />
+      <workItem from="1601534836629" duration="1724000" />
+      <workItem from="1601538453402" duration="2466000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -357,11 +359,11 @@
     </state>
     <state x="360" y="189" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1599985415145" />
     <state x="360" y="207" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600485235795" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601428180036">
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601450676548">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="384" y="195" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600147267492" />
-    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601428180036" />
+    <state x="384" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601450676548" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
