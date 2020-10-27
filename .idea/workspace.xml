@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/DEPLOY_GITLAB_ON_KUBERNETES_ON_GOOGLE_CLOUD.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEFINITIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEFINITIONS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
@@ -17,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checklists/EPIC.md" beforeDir="false" afterPath="$PROJECT_DIR$/checklists/EPIC.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
@@ -100,19 +101,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cloud" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/traffic-management" />
+      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/react-reload" />
+      <recent name="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/istio-manifests" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/kubernetes-manifests" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests" />
       <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend/src/inspiration" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/istio-manifests/traffic-management" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src/react-reload" />
-      <recent name="$PROJECT_DIR$/api/gateway (service mesh)/istio/docs/traffic-management" />
-      <recent name="$PROJECT_DIR$/api/gateway (service mesh)" />
-      <recent name="$PROJECT_DIR$/___learning/phase-3/phase_3.3/application/src/frontend" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.API.js">
@@ -239,6 +240,8 @@
       <workItem from="1601021439195" duration="5372000" />
       <workItem from="1601534836629" duration="1724000" />
       <workItem from="1601538453402" duration="2466000" />
+      <workItem from="1602031669885" duration="1069000" />
+      <workItem from="1602744571850" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>

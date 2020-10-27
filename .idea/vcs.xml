@@ -14,6 +14,10 @@
     <mapping directory="$PROJECT_DIR$/docker/__code/demo/node-bulletin-board" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/interacting-with-eth-container" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/experiments/___learning/phase-0/demo/node-bulletin-board" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/KubernetesMultiPodCommunication" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/message-broker/rabbitMQ/demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rabbitMQ/demo" vcs="Git" />
   </component>

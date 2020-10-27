@@ -11,6 +11,10 @@
 - Serverless (www.serverless.com)
 - GIS (Geographic Information System)
 
+# Lifecycle Tools / Sofware Development Cycle Tools (SDCT)
+- GitLab
+- GitHub
+- BitBucket
 
 # Languages
 - GraphQL API (querying)
@@ -129,6 +133,8 @@ gsutil
 - Zsh functions with arguments
 ### Multiple Terminal Sessions
 - tmux (https://en.wikipedia.org/wiki/Tmux)
+#### Recording
+- asciinema
 
 # Network Science
 - Network Ports
