@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/DEPLOY_GITLAB_ON_KUBERNETES_ON_GOOGLE_CLOUD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general/agile-manifesto/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general/soft-skills/COMMON_ISSUES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware-and-operating-systems/mobile/operating-systems/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hardware-and-operating-systems/mobile/operating-systems/android/ARCHITECTURE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEFINITIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEFINITIONS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +240,7 @@
       <workItem from="1601538453402" duration="2466000" />
       <workItem from="1602031669885" duration="1069000" />
       <workItem from="1602744571850" duration="766000" />
+      <workItem from="1603773500991" duration="1077000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -289,10 +288,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597406044425" />
-    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599781641890">
+    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603774732919">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1599781641890" />
+    <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1603774732919" />
     <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1599960488845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
