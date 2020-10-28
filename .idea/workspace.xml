@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
       <change afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/agile-manifesto/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general/soft-skills/COMMON_ISSUES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hardware-and-operating-systems/mobile/operating-systems/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hardware-and-operating-systems/mobile/operating-systems/android/ARCHITECTURE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-api" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
@@ -90,7 +92,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="DotEnv&#10;JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -240,7 +242,9 @@
       <workItem from="1601538453402" duration="2466000" />
       <workItem from="1602031669885" duration="1069000" />
       <workItem from="1602744571850" duration="766000" />
-      <workItem from="1603773500991" duration="1077000" />
+      <workItem from="1603773500991" duration="1561000" />
+      <workItem from="1603784089515" duration="27000" />
+      <workItem from="1603810168826" duration="1140000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>

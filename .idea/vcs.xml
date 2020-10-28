@@ -9,8 +9,13 @@
     <mapping directory="$PROJECT_DIR$/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/api/gateway (service mesh) (ingress controllers)/istio/source-code" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/api/gateway (service mesh)/istio/source-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend-services/api/gateway (service mesh) (ingress controllers)/istio/source-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backend-services/message-broker/rabbitMQ/demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/serverless-react-boilerplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/demo/node-bulletin-board" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/interacting-with-eth-container" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/interacting-with-eth-container-from-template" vcs="Git" />
