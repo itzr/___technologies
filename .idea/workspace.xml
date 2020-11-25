@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b1ee15e-666f-4b31-b734-7fb90bbcde94" name="Default Changelist" comment="env ignore">
-      <change afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/istio-manifests/operator.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-api" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/pkg/skaffold/cluster/minikube.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/credentials.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold/vendor/github.com/docker/docker-credential-helpers/credentials/helper.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/kubernetes-manifests/currencyservice.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/skaffold.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.2/microservices-demo/src/currencyservice/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/client/client-app-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/___learning/phase-3/phase_3.3/todo-app-client-server-kubernetes/server/server-app-configs.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +75,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="DotEnv&#10;JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/___learning/phase-3/phase_3.3/connectivity/src" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml&#10;DotEnv&#10;JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -245,6 +228,9 @@
       <workItem from="1603773500991" duration="1561000" />
       <workItem from="1603784089515" duration="27000" />
       <workItem from="1603810168826" duration="1140000" />
+      <workItem from="1604029960891" duration="2572000" />
+      <workItem from="1604043322924" duration="311000" />
+      <workItem from="1604976474012" duration="528000" />
     </task>
     <task id="LOCAL-00001" summary="env ignore">
       <created>1597396456180</created>
@@ -260,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597396516230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Non-Technical update (reading, interesting links)">
+      <created>1604976796251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604976796251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="env ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="env ignore" />
+    <MESSAGE value="Non-Technical update (reading, interesting links)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Non-Technical update (reading, interesting links)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="319" y="127" key="#Notifications" timestamp="1598260888598">
@@ -296,11 +290,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="416" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1603774732919" />
-    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1599960488845">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="0" y="23" width="1432" height="877" key="CommitChangelistDialog2" timestamp="1604976795328">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1599960488845" />
-    <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597399288339" />
+    <state x="0" y="23" width="1432" height="877" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604976795328" />
     <state width="1373" height="2" key="GridCell.Tab.0.bottom" timestamp="1600670660370">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -334,10 +328,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="99" y="123" width="1240" height="677" key="VCS.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1598261343001" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1600495354838">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1604976812851">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1600495354838" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604976812851" />
     <state x="98" y="123" width="1240" height="677" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600498207117">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

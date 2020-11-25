@@ -13,7 +13,11 @@
     <mapping directory="$PROJECT_DIR$/backend-services/message-broker/rabbitMQ/demo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/containers/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/continuous-development/skaffold/source/skaffold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/building-a-serverless-rest-api-with-nodejs" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-app/notes-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/notes-app/notes-app-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/serverless-cron-job-example" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/devOps-sysAd/cloud/serverless/serverless-react-boilerplate" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/devOps-sysAd/containers/continuous-development/skaffold/source/skaffold" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/docker/__code/demo/node-bulletin-board" vcs="Git" />
