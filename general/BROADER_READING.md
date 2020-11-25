@@ -1,2 +1,6 @@
 - Active Measures: The Secret History of Disinformation and Political Warfare
 - Sci Fi
+- History of the Internet
+- The Handmaids Tale (the testaments = sequel)
+- Cult of the Dead Cow: How the Original Hacking Supergroup Might Just Save the World
+- How the Internet Happened: From Netscape to the iPhone
