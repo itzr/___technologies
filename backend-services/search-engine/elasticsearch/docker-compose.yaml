@@ -1,9 +1,0 @@
-version: '2'
-services:
-  kibana:
-    image: docker.elastic.co/kibana/kibana:6.6.2
-    environment:
-      SERVER_NAME: 0.0.0.0
-      ELASTICSEARCH_HOSTS: // CAN USE AUTH FOR LEARNING PURPOSES
-    ports:
-    - 5601:5601

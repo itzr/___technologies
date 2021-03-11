@@ -1,3 +1,0 @@
-- requires `sudo gem install cocoapods`
-- focus on Ruby & Xcode 
-- it's for MacOS and IOS applications.

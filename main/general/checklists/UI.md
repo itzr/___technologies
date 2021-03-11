@@ -1,0 +1,9 @@
+- mock ups
+	- component
+	- how it fits into the bigger UI
+- account for responsive web design
+- account for mobile friendliness (mobile-first)
+- if there is POST request.
+    - are the UI Inputs mapped to given endpoints
+    - If there are endpoints unsatisfied by the input, are the defaults provided?
+- Is the USER FLOW defined

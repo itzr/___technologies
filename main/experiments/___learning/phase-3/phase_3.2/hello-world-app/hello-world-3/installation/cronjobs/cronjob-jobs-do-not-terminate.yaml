@@ -1,0 +1,30 @@
+#JOBS IN ISTIO ARE NOT FINISHING!!
+
+#to see the output (not working because...
+#error: a container name must be specified for
+#pod infura-cron-test-1600400760-fg5fv,
+#choose one of: [hello istio-proxy] or one of the init containers: [istio-init]
+#COMMANDS
+#kubectl get cronjob <name>
+#pods=$(kubectl get pods --selector=job-name=<full_name> --output=jsonpath={.items[*].metadata.name})
+#kubectl logs $pods
+
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: infura-cron-test
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: hello
+              image: busybox
+              args:
+                - /bin/sh
+                - -c
+                - date; echo Hello from the Kubernetes cluster
+                # READING: https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
+          restartPolicy: OnFailure

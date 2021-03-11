@@ -1,5 +1,0 @@
-certmanager-issuer:
-  email: ian.tozer@hotmail.co.uk
-global:
-  hosts:
-    domain: degovpulse.com

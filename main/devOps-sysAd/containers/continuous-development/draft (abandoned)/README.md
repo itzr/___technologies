@@ -1,0 +1,5 @@
+CURRENTLY NOT WORKING ON LOCAL. SEE ISSUES.md
+
+MOVING ON TO SKAFFOLD 
+
+It looks like Draft has been ABANDONED by Microsoft.

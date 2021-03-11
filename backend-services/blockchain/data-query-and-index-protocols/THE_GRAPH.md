@@ -1,6 +1,0 @@
-- indexes blockchain data
-- indexes = 'subgraphs'
-- can be queries with GraphQL API.
-- powered by `Graph Node` = open source.
--
--

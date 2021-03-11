@@ -1,0 +1,3 @@
+- Change Dockerfile to enable.
+- Integrates with PHP Storm (https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html)
+- Installing XDebug on MacOS Catalina 10.15 is a PITA. However, fortunately (https://stackoverflow.com/questions/58317736/installation-of-xdebug-on-macos-catalina-10-15)

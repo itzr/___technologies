@@ -1,0 +1,5 @@
+- guide (node exporter): https://prometheus.io/docs/guides/node-exporter/#tarball-installation
+- guide (file based service discovery): https://prometheus.io/docs/guides/file-sd/
+- use brew for node_exporter on macOS
+- verify (node exporter): `curl http://localhost:9100/metrics`
+- verify (prometheus running with node exporter): `localhost:9090/graph`

@@ -1,3 +1,0 @@
-Please refer to /docs
-
-:-) 

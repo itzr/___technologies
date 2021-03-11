@@ -1,3 +1,0 @@
-codementor.io
-toptal.com
-

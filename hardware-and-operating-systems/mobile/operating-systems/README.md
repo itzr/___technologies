@@ -1,3 +1,0 @@
-- android
-- ios
-- grapheneOS (Security Focused Mobile Operating System)

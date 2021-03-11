@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: productpage
+  namespace: my-istio-app
+  annotations:
+    konghq.com/plugins: rate-limit
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /
+            backend:
+              serviceName: productpage
+              servicePort: 9080
