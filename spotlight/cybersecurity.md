@@ -1,0 +1,30 @@
+CyberSecurity: 
+- NMap
+    - network scanner
+- ZenMap
+    - network scanner GUI
+- Metasploit (framework / pro)
+    - pen test framework
+- John The Ripper
+    - psd cracker
+- Hydra
+    - psd cracker
+- WireShark
+    - network protocol analyzer
+- Aircrack-ng
+    - Packet sniffer and injector, WEP encryption key recovery
+- Nikto
+    - webserver scanner
+- Kismet
+    - network detector, packet sniffer, and intrusion detection system for wireless LANS
+- Airgeddon
+    - audit wireless networks
+- Deauther Board
+- EvilOSx
+    - Evil remote administration board
+- Linux Kali (Dual Boot)
+    - OS for pen testing
+- Owasp
+    - Open Web Application Security Project
+    - Non-profit foundation.
+    - Famous for OWASP Top 10
